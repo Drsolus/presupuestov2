@@ -19,5 +19,10 @@ class PeriodoPresupuestal extends Model
     Public function RelacionPeriodoAtributo()
     {
         return $this->hasMany('App\RelacionCatalogoAtributosConPeriodoPresupuestal','fkIdPeriodoPresupuestal','idPeriodoPresupuestal');
-    } 
+    }
+    Public Function LineaDeDetalle()
+    {
+        return $this->hasManyThrough('App\LineaDeDetalle','App\Presupuesto');
+    }
+
 }

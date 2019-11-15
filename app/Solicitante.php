@@ -12,11 +12,11 @@ class Solicitante extends Model
     {
         return $this->hasOne('App\User','fkIdSolicitantes','idSolicitante');
     }
-    public function departamento()
+    public function Departamento()
     {
         return $this->belongsTo('App\Departamento','fkIdDepartamento','idDepartamento');
 
     }
 
-    
+
 }

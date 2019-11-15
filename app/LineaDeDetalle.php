@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class LineaDeDetalle extends Model
 {
-    protected $table='lineadedetalle';
+    protected $table='lineasdedetalle';
 
     public function Presupuesto()
     {
@@ -14,7 +14,7 @@ class LineaDeDetalle extends Model
     }
     public function AtributoAdicional()
     {
-        return $this-hasMany('App\AtributoAdicional','fkIdLineaDeDetalle','idLineaDeDetalle');
+        return $this->hasMany('App\AtributoAdicional','fkIdLineaDeDetalle','idLineaDeDetalle');
     }
 
     public function CatalogoEstadosLineaDeDetalle()

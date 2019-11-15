@@ -20,9 +20,11 @@ class Presupuesto extends Model
     {
         return $this->belongsTo('App\CatalogoEstadoPresupuesto','fkIdEstadoPresupuesto','idEstadoPresupuesto');
     }
-    Public function LineaDeDetalle()
+    Public function LineasDeDetalle()
     {
         return $this->hasMany('App\LineaDeDetalle','fkIdPresupuesto','idPresupuesto');
     }
+
+
 
 }

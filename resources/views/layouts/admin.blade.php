@@ -5,7 +5,7 @@
 <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+        <meta name="csrf-token" content="{{ csrf_token() }}">
         <!-- Vendor styles -->
         <link rel="stylesheet" href="vendors/bower_components/material-design-iconic-font/dist/css/material-design-iconic-font.min.css">
         <link rel="stylesheet" href="vendors/bower_components/animate.css/animate.min.css">
@@ -31,9 +31,9 @@
                 </div>
 
                 <div class="logo hidden-sm-down">
-                    <h1><a href="{route:}">Presupuesto Ciisa</a></h1>
+                    <h1><a href="{{route('home')}}">Presupuesto Ciisa</a></h1>
                 </div>
-                    
+
 
                 <div class="clock hidden-md-down">
                     <div class="time">
@@ -49,7 +49,7 @@
 
                     <div class="user">
                         <div class="user__info" data-toggle="dropdown">
-                            
+
                             <div>
                                 <div class="user__name">{{ Auth::user()->name}}</div>
                                 <div class="user__email">{{ Auth::user()->email}}</div>
@@ -69,7 +69,7 @@
                                 <li class="@@hiddensidebarboxedactive"><a href="hidden-sidebar-boxed-layout.html">Boxed Layout with Hidden Sidebar</a></li>
                             </ul>
                         </li>
-                                          
+
                     </ul>
                 </div>
             </aside>
@@ -78,10 +78,10 @@
                 <div class="content__inner">
                     <header class="content__title">
                     @yield('content')
-                        
+
 
                     </header>
-  
+                    </div>
             </section>
         </main>
 
