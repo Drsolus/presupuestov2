@@ -3,19 +3,25 @@
     
 <!--Designed By ALpha-->
 <head>
-        <meta charset="utf-8">
+    <title>Presupuestos Ciisa</title>
+    <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <!-- Vendor styles -->
-        <link rel="stylesheet" href="vendors/bower_components/material-design-iconic-font/dist/css/material-design-iconic-font.min.css">
-        <link rel="stylesheet" href="vendors/bower_components/animate.css/animate.min.css">
-        <link rel="stylesheet" href="vendors/bower_components/jquery.scrollbar/jquery.scrollbar.css">
+        <link rel="stylesheet" href="./vendors/bower_components/material-design-iconic-font/dist/css/material-design-iconic-font.min.css">
+        <link rel="stylesheet" href="./vendors/bower_components/animate.css/animate.min.css">
+        <link rel="stylesheet" href="./vendors/bower_components/jquery.scrollbar/jquery.scrollbar.css">
+        <link rel="stylesheet" href="./vendors/bower_components/dropzone/dist/dropzone.css">
+        <link rel="stylesheet" href="./vendors/bower_components/flatpickr/dist/flatpickr.min.css" />
+        <link rel="stylesheet" href="./vendors/bower_components/nouislider/distribute/nouislider.min.css">
+        <link rel="stylesheet" href="./vendors/bower_components/bootstrap-colorpicker/dist/css/bootstrap-colorpicker.css">
+        <link rel="stylesheet" href="./vendors/bower_components/trumbowyg/dist/ui/trumbowyg.min.css">
 
         <!-- App styles -->
         <link rel="stylesheet" href="css/app.min.css">
     </head>
 
-    <body data-sa-theme="1">
+    <body data-sa-theme="3">
         <main class="main">
             <div class="page-loader">
                 <div class="page-loader__spinner">
@@ -31,7 +37,10 @@
                 </div>
 
                 <div class="logo hidden-sm-down">
-                    <h1><a href="{{route('home')}}">Presupuesto Ciisa</a></h1>
+                    <img src="../img/logo/logo.png" alt="logo"
+                         style="max-width:100%;
+max-height:100%;"  >
+                    <h1><a style="margin-left: 10px;" href="{{route('home')}}">Presupuesto Ciisa</a></h1>
                 </div>
 
 
@@ -42,6 +51,20 @@
                         <span class="sec"></span>
                     </div>
                 </div>
+                @guest
+                    @else
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="{{ route('logout') }}"
+                       onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                        {{ __('Logout') }}
+                    </a>
+
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                        @csrf
+                    </form>
+                </div>
+                @endguest
             </header>
 
             <aside class="sidebar">
@@ -59,16 +82,35 @@
 
                     <ul class="navigation">
                         <li class="@@indexactive"><a href="{{route('home')}}"><i class="zmdi zmdi-home"></i> Home</a></li>
+                        @if(Auth::user()->role != 'Rectoria')
                         <li class="@@indexactive"><a href="{{route('Solicitud')}}"><i class="zmdi zmdi-home"></i> Solicitudes</a></li>
-                        <li class="navigation__sub @@variantsactive">
-                            <a href="#"><i class="zmdi zmdi-view-week"></i> Variants</a>
+                        @endif
+                        @if(Auth::user()->role != 'Solicitante')
+                            <li class="@@indexactive"><a href="{{route('presupuesto')}}"><i class="zmdi zmdi-home"></i> Presupuestos</a></li>
+                        @endif
+                        @if(Auth::user()->role != 'Rectoria')
+                            <li class="@@indexactive"><a href="{{route('MisPresupuestos')}}"><i class="zmdi zmdi-home"></i> Mis Presupuestos</a></li>
+                        @endif
+                        @if(Auth::user()->role == 'Rectoria')
+                            <li class="@@indexactive"><a href="{{route('AprobarPresupuestos')}}"><i class="zmdi zmdi-home"></i> Aprobar Presupuesto</a></li>
+                        @endif
+                        @if(Auth::user()->role == 'Finanzas')
+                            <li class="@@indexactive"><a href="{{route('CrearPeriodoPresupuestal')}}"><i class="zmdi zmdi-home"></i>Crear Periodo Presupuestal</a></li>
+                        @endif
+                        @if(Auth::user()->role != 'Rectoria')
+                        <li class="@@indexactive"><a href="{{route('EjecutarPresupuesto')}}"><i class="zmdi zmdi-home"></i> Ejecutar Presupuesto</a></li>
+                        @endif
+                            <li class="@@indexactive"> <a href="{{ route('logout') }}"
+                               onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                    {{ __('Cerrar Sesion') }}</a>
+                            </li>
 
-                            <ul>
-                                <li class="@@sidebaractive"><a href="hidden-sidebar.html">Hidden Sidebar</a></li>
-                                <li class="@@boxedactive"><a href="boxed-layout.html">Boxed Layout</a></li>
-                                <li class="@@hiddensidebarboxedactive"><a href="hidden-sidebar-boxed-layout.html">Boxed Layout with Hidden Sidebar</a></li>
-                            </ul>
-                        </li>
+                            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                @csrf
+                            </form>
+                        </div>
+
 
                     </ul>
                 </div>
@@ -129,6 +171,16 @@
         <script src="vendors/bower_components/jquery-scrollLock/jquery-scrollLock.min.js"></script>
 
         <script src="vendors/bower_components/autosize/dist/autosize.min.js"></script>
+        <script src="vendors/bower_components/jquery-mask-plugin/dist/jquery.mask.min.js"></script>
+        <script src="vendors/bower_components/select2/dist/js/select2.full.min.js"></script>
+        <script src="vendors/bower_components/dropzone/dist/min/dropzone.min.js"></script>
+        <script src="vendors/bower_components/moment/min/moment.min.js"></script>
+        <script src="vendors/bower_components/flatpickr/dist/flatpickr.min.js"></script>
+        <script src="vendors/bower_components/nouislider/distribute/nouislider.min.js"></script>
+        <script src="vendors/bower_components/bootstrap-colorpicker/dist/js/bootstrap-colorpicker.min.js"></script>
+        <script src="vendors/bower_components/trumbowyg/dist/trumbowyg.min.js"></script>
+
+
 
         <!-- App functions and actions -->
         <script src="js/app.min.js"></script>

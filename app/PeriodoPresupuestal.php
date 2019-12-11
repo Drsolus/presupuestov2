@@ -12,7 +12,7 @@ class PeriodoPresupuestal extends Model
     {
         return $this->hasMany('App\Presupuesto','fkPeriodoPresupuestal','idPeriodoPresupuestal');
     }
-    public function EstadoPeriodoPresupuestal()
+    public function CatalogoEstadoPeriodoPresupuestal()
     {
         return $this->belongsTo('App\CatalogoEstadoPeriodoPresupuestal','fkIdEstadoPeriodoPresupuestal','idEstadoPeriodoPresupuestal');
     }
@@ -24,5 +24,10 @@ class PeriodoPresupuestal extends Model
     {
         return $this->hasManyThrough('App\LineaDeDetalle','App\Presupuesto');
     }
+    Public function CatalogoAtributoAdicional()
+    {
+        return $this->hasManyThrough('App\CatalogoAtributoAdicional', 'App\RelacionCatalogoAtributosConPeriodoPresupuestal','fkIdPeriodoPresupuestal','idCatalogoAtributoAdicional','idPeriodoPresupuestal','fkIdCatalogoAtributosAdicionales');
+    }
+
 
 }

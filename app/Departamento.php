@@ -16,4 +16,10 @@ class Departamento extends Model
     {
         return $this->hasMany('App\Presupuesto','fkIdDepartamento','idDepartamento');
     }
+
+    public function LineaDeDetalle()
+    {
+        return $this->hasManyThrough('App\LineaDeDetalle', 'App\Presupuesto','fkIdDepartamento','fkIdPresupuesto','idDepartamento','idPresupuesto');
+    }
+
 }

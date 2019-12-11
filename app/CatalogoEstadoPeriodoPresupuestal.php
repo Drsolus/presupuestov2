@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App;
 
-use Illuminate\Http\Request;
+use Illuminate\Database\Eloquent\Model;
 
-class CatalogoEstadoPeriodoPresupuestal extends Controller
+class CatalogoEstadoPeriodoPresupuestal extends Model
 {
-    protected $table='catalogoestadoperiodospresupuestal';
+    protected $table='catalogoestadosperiodospresupuestal';
 
     public function PeriodoPresupuestal()
     {

@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App;
 
-use Illuminate\Http\Request;
+use Illuminate\Database\Eloquent\Model;
 
-class CatalogoEstadoLineaDeDetalle extends Controller
+class CatalogoEstadoLineaDeDetalle extends Model
 {
-    protected $table='catalogoestadolineadedetalle';
+    protected $table='catalogoestadoslineasdedetalle';
 
     public function LineaDeDetalle()
     {

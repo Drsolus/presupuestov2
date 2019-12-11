@@ -1,17 +1,15 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App;
 
-use Illuminate\Http\Request;
+use Illuminate\Database\Eloquent\Model;
 
-class CatalogoEstadoPresupuesto extends Controller
+class CatalogoEstadoPresupuesto extends Model
 {
     protected $table='catalogoestadospresupuestos';
 
     public function presupuesto()
     {
-        return $this->hasMany('App\RelacionCatalogoAtributosConPeriodosPresupuestal','fkIdEstadoPresupuesto','idPresupuesto');
+        return $this->hasMany('App\Presupuesto','fkEstadoPresupuesto','idEstadoPresupuesto');
     }
-
-    
 }

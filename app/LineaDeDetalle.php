@@ -3,7 +3,10 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-
+/**
+ * @mixin \Eloquent
+ * @mixin \Illuminate\Database\Eloquent\Builder
+ */
 class LineaDeDetalle extends Model
 {
     protected $table='lineasdedetalle';
@@ -14,12 +17,12 @@ class LineaDeDetalle extends Model
     }
     public function AtributoAdicional()
     {
-        return $this->hasMany('App\AtributoAdicional','fkIdLineaDeDetalle','idLineaDeDetalle');
+        return $this->hasMany('App\AtributoAdicional','fkIdLineaDeDetalle','idLineasDeDetalle');
     }
 
-    public function CatalogoEstadosLineaDeDetalle()
+    public function CatalogoEstadoLineaDeDetalle()
     {
-        return $this->belongsTo('App\CatalogoEstadLineaDeDetalle','fkIdEstadoLineaDeDetalle','idEstadoLineaDeDetalle');
+        return $this->belongsTo('App\CatalogoEstadoLineaDeDetalle','fkIdEstadoLineaDeDetalle','idEstadoLineaDeDetalle');
     }
 
 }

@@ -38,6 +38,23 @@
                                 @endif
                             </div>
                         </div>
+                        <div class="form-group row">
+                            <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
+
+                            <div class="col-md-6">
+                                <select id="solicitante"  class="form-control{{ $errors->has('solicitante') ? ' is-invalid' : '' }}" name="solicitante" value="{{ old('solicitante') }}" required>
+                                <option value="">Seleccione solicitante</option>
+                                 @foreach($Solicitantes=App\Solicitante::all() as $Solicitante)
+                                        <option value="{{$Solicitante->idSolicitante}}">{{$Solicitante->nombreSolicitante.' '.$Solicitante->apellidoPaternoSolicitante.' '.$Solicitante->apellidoMaternoSolicitante}}</option>
+                                    @endforeach
+                                </select>
+                                @if ($errors->has('solicitante'))
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $errors->first('solicitante') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
 
                         <div class="form-group row">
                             <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Password') }}</label>

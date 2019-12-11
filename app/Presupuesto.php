@@ -18,13 +18,16 @@ class Presupuesto extends Model
     }
     public function CatalogoEstadoPresupuesto()
     {
-        return $this->belongsTo('App\CatalogoEstadoPresupuesto','fkIdEstadoPresupuesto','idEstadoPresupuesto');
+        return $this->belongsTo('App\CatalogoEstadoPresupuesto','fkEstadoPresupuesto','idEstadoPresupuesto');
     }
     Public function LineasDeDetalle()
     {
         return $this->hasMany('App\LineaDeDetalle','fkIdPresupuesto','idPresupuesto');
     }
-
+    Public function AtributoAdicional()
+    {
+        return $this->hasManyThrough('App\AtributoAdicional', 'App\LineaDeDetalle','fkIdPresupuesto','fkIdLineaDeDetalle','idDepartamento','idLineasDeDetalle');
+    }
 
 
 }

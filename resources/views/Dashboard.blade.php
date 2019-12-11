@@ -12,16 +12,16 @@
 </div>
 
 
-@if(Auth::user()->role === 'Finanzas')
+@if(Auth::user()->role === 'Finanzas' || Auth::user()->role === 'Rectoria' )
     <div align="center" class="row">
-        <h2>Periodo Presupuestal en Proceso de solicitudes del {{$datosCabezera[0]}} al {{$datosCabezera[1]}} </h2>
+        <h2>Periodo Presupuestal {{$PeriodoPresupuestal->nombrePeriodoPresupuestal}} en Proceso de solicitudes del {{$PeriodoPresupuestal->fechaHoraInicioPeriodoPresupuestal}} al {{$PeriodoPresupuestal->fechaHoraTerminoPeriodoPresupuestal}} </h2>
     </div>
     <br>
     <div class="row quick-stats">
         <div class="col-sm-6 col-md-3">
            <div class="quick-stats__item">
                <div class="quick-stats__info ">
-                    <h2>{{ $datosCabezera[2]}}</h2>
+                    <h2>{{$PeriodoPresupuestal->Presupuesto->count()}}</h2>
                     <small>Total Solicitudes</small>
                </div>
            </div>
@@ -31,8 +31,8 @@
             <div class="col-sm-6 col-md-3">
                 <div class="quick-stats__item">
                     <div class="quick-stats__info ">
-                        <h2>{{ $datosCabezera[3]}}</h2>
-                        <small>Solicitudes en proceso</small>
+                        <h2>{{$PeriodoPresupuestal->Presupuesto->where('fkEstadoPresupuesto','=','1')->count()}}</h2>
+                        <small>Solicitudes por Activar</small>
                     </div>
                 </div>
 
@@ -40,17 +40,35 @@
         <div class="col-sm-6 col-md-3">
             <div class="quick-stats__item">
                 <div class="quick-stats__info ">
-                    <h2>{{ $datosCabezera[4]}}</h2>
-                    <small>Solicitudes guardadas</small>
+                    <h2>{{$PeriodoPresupuestal->Presupuesto->where('fkEstadoPresupuesto','=','2')->count()}}</h2>
+                    <small>Solicitudes en Solicitud </small>
                 </div>
             </div>
 
         </div>
+        <div class="col-sm-6 col-md-3">
+            <div class="quick-stats__item">
+                <div class="quick-stats__info ">
+                    <h2>{{$PeriodoPresupuestal->Presupuesto->where('fkEstadoPresupuesto','=','4')->count()}}</h2>
+                    <small>Solicitudes Guardadas</small>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+            <div class="quick-stats__item">
+                <div class="quick-stats__info ">
+                    <h2>{{$PeriodoPresupuestal->Presupuesto->where('fkEstadoPresupuesto','=','3')->count()}}</h2>
+                    <small>Solicitudes Enviadas</small>
+                </div>
+            </div>
+        </div>
+
             <div class="col-sm-6 col-md-3">
                 <div class="quick-stats__item">
                     <div class="quick-stats__info ">
-                        <h2>{{ $datosCabezera[5]}}</h2>
-                        <small>Solicitudes Enviadas</small>
+                        <h2>{{$PeriodoPresupuestal->Presupuesto->where('fkEstadoPresupuesto','=','5')->count()}}</h2>
+                        <small>Solicitudes Aprobadas </small>
+                        <small>Totalmente</small>
                     </div>
                 </div>
 
@@ -58,21 +76,30 @@
         <div class="col-sm-6 col-md-3">
             <div class="quick-stats__item">
                 <div class="quick-stats__info ">
-                    <h2>{{ $datosCabezera[6]}}</h2>
-                    <small>Solicitudes Revisadas</small>
+                    <h2>{{$PeriodoPresupuestal->Presupuesto->where('fkEstadoPresupuesto','=','6')->count()}}</h2>
+                    <small>Solicitudes Aprobadas</small>
+                    <small>con Observaciones</small>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+            <div class="quick-stats__item">
+                <div class="quick-stats__info ">
+                    <h2>{{$PeriodoPresupuestal->Presupuesto->where('fkEstadoPresupuesto','=','7')->count()}}</h2>
+                    <small>Solicitudes Rechazadas</small>
                 </div>
             </div>
 
         </div>
-            <div class="col-sm-6 col-md-3">
-                <div class="quick-stats__item">
-                    <div class="quick-stats__info ">
-                        <h2>{{ $datosCabezera[7]}}</h2>
-                        <small>Solicitudes rechazadas</small>
-                    </div>
+        <div class="col-sm-6 col-md-3">
+            <div class="quick-stats__item">
+                <div class="quick-stats__info ">
+                    <h2>{{$PeriodoPresupuestal->Presupuesto->where('fkEstadoPresupuesto','=','8')->count()}}</h2>
+                    <small>Solicitudes En Ejecucion</small>
                 </div>
-
             </div>
+
+        </div>
 
     </div>
     <div class="row">

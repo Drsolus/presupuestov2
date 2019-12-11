@@ -10,6 +10,6 @@ class AtributoAdicional extends Model
 
     public function LineaDeDetalle()
     {
-        return $this->belongsTo('App\LineaDeDetalle','fkIdLineaDeDetalle','idLineaDeDetalle');
+        return $this->belongsTo('App\LineaDeDetalle','fkIdLineaDeDetalle','idLineasDeDetalle');
     }
 }
