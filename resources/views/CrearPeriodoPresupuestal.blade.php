@@ -30,7 +30,7 @@
                     <label for="fechaInicio" class="col-md-4 col-form-label text-md-right">{{ __('Fecha Inicio Solicitudes') }}</label>
 
                     <div class="col-md-6">
-                        <input type="text" name="fechaInicio" class="form-control datetime-picker flatpickr-input active" placeholder="Selecionne Fecha y hora de inicio para el periodo presupuestal" readonly="readonly">
+                        <input required type="text" name="fechaInicio" class="form-control datetime-picker flatpickr-input active" placeholder="Selecionne Fecha y hora de inicio para el periodo presupuestal" readonly="readonly">
                         @if ($errors->has('fechaInicio'))
                             <span class="invalid-feedback" role="alert">
                                         <strong>{{ $errors->first('fechaInicio') }}</strong>
@@ -42,7 +42,7 @@
                     <label for="fechaTermino" class="col-md-4 col-form-label text-md-right">{{ __('Fecha Termino Solicitudes') }}</label>
 
                     <div class="col-md-6">
-                        <input type="text" name="fechaTermino" class="form-control datetime-picker flatpickr-input active" placeholder="Selecionne Fecha y hora de termino para el periodo presupuestal" readonly="readonly">
+                        <input required type="text" name="fechaTermino" class="form-control datetime-picker flatpickr-input active" placeholder="Selecionne Fecha y hora de termino tentativas para el Cierre del Presupuesto " readonly="readonly">
                         @if ($errors->has('fechaTermino'))
                             <span class="invalid-feedback" role="alert">
                                         <strong>{{ $errors->first('fechaTermino') }}</strong>

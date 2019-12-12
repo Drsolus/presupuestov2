@@ -1,3 +1,7 @@
+@if($LineasDeDetalle->first() == '' )
+<h3>No posee un presupuesto en ejecuccion actualmente</h3>
+@else
+
 <div class="table-wrapper" style="position:relative">
     <div class="table-scroll" style="
   overflow:auto;
@@ -43,3 +47,4 @@
 </div>
 </div>
 </div>
+@endif

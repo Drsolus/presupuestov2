@@ -41,7 +41,7 @@
                 data: $(this).serialize(),
 
                 success: function (response) {
-
+                    console.log(response);
 
                     document.getElementById("FormCrearAtributo").reset();
                     $("#ModalCrearAtributo .close").click();

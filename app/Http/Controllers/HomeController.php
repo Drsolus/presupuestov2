@@ -102,15 +102,16 @@ class HomeController extends Controller
         if(Auth::User()->role == 'Solicitante')
         {
             $id=$request->id;
-            echo $Presupuestos = $presupuestos=Auth::User()->Solicitante->Departamento->Presupuesto->where('idPresupuesto','=',$id);
+             $Presupuestos = $presupuestos=Auth::User()->Solicitante->Departamento->Presupuesto->where('idPresupuesto','=',$id);
             foreach ($Presupuestos as $Presupuesto)
             {
                  $presupuestos=$Presupuesto;
 
             }
 
-            if(empty($presupuestos[0]))
+            if($presupuestos->first() == '')
             {
+
                 return redirect()->route('home');
             }else
                 {
@@ -146,9 +147,9 @@ class HomeController extends Controller
 
     public  function  MisPresupuestos()
     {
-       $presupuestos=Auth::User()->Solicitante->Departamento->Presupuesto;
+      $presupuestos=Auth::User()->Solicitante->Departamento->Presupuesto;
 
-    return view('Presupuesto')->with(['presupuestos'=>$presupuestos]);
+    return view('MisPresupuestos')->with(['presupuestos'=>$presupuestos]);
     }
 
     public function EjecutarPresupuesto()
@@ -219,5 +220,60 @@ class HomeController extends Controller
         //$children= Departamento::all();
         //return view('Prueba')->with(['test'=>$children]);
     }
+
+    public function test()
+    {
+        if (Auth::user()->role === 'Finanzas')
+        {
+            $idPresupuesto= '21';
+            DB::table('presupuestos')
+                ->where('idPresupuesto','=',$idPresupuesto)
+                ->where(function ($query) {
+                    $query->where('fkEstadoPresupuesto', '=', '3')
+                        ->orWhere('fkEstadoPresupuesto', '=', '5')
+                        ->orWhere('fkEstadoPresupuesto', '=', '6')
+                        ->orWhere('fkEstadoPresupuesto', '=', '7')
+                        ->orWhere('fkEstadoPresupuesto', '=', '8');
+                })
+                ->update(['fkEstadoPresupuesto'=>'2']);
+            //return response()->json(array('success' => true, 'result' => 'Correcto'));
+        }
+    }
+
+    public function NuevoDepartamento()
+    {
+        if (Auth::user()->role === 'Finanzas')
+        {
+
+            return view('AgregarDepartamento');
+        }
+    }
+
+    public function Departamentos()
+    {
+        if (Auth::user()->role === 'Finanzas') {
+            $Departamentos = Departamento::all();
+            return view('Departamentos')->with(['Departamentos' => $Departamentos]);
+        }
+        }
+    public function Solicitantes()
+    {
+        if (Auth::user()->role === 'Finanzas') {
+            $Solicitantes = Solicitante::all();
+
+            return view('Solicitantes')->with(['Solicitantes' => $Solicitantes]);
+        }
+    }
+
+    public function EnrolarSolicitante()
+    {
+        if (Auth::user()->role === 'Finanzas')
+        {
+            $Departamentos= Departamento::where('idDepartamento','!=','1')->where('idDepartamento','!=','2')->get();
+            return view('CrearSolicitante')->with(['Departamentos'=>$Departamentos]);
+        }
+
+    }
+
 
 }

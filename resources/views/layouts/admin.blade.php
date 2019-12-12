@@ -91,14 +91,29 @@ max-height:100%;"  >
                         @if(Auth::user()->role != 'Rectoria')
                             <li class="@@indexactive"><a href="{{route('MisPresupuestos')}}"><i class="zmdi zmdi-home"></i> Mis Presupuestos</a></li>
                         @endif
+                        @if(Auth::user()->role != 'Rectoria')
+                            <li class="@@indexactive"><a href="{{route('EjecutarPresupuesto')}}"><i class="zmdi zmdi-home"></i> Ejecutar Presupuesto</a></li>
+                        @endif
                         @if(Auth::user()->role == 'Rectoria')
                             <li class="@@indexactive"><a href="{{route('AprobarPresupuestos')}}"><i class="zmdi zmdi-home"></i> Aprobar Presupuesto</a></li>
                         @endif
                         @if(Auth::user()->role == 'Finanzas')
+                            <li class="@@indexactive"><a href="{{route('PeriodosPresupuestales')}}"><i class="zmdi zmdi-home"></i>Periodos Presupuestales</a></li>
+                        @endif
+                        @if(Auth::user()->role == 'Finanzas')
                             <li class="@@indexactive"><a href="{{route('CrearPeriodoPresupuestal')}}"><i class="zmdi zmdi-home"></i>Crear Periodo Presupuestal</a></li>
                         @endif
-                        @if(Auth::user()->role != 'Rectoria')
-                        <li class="@@indexactive"><a href="{{route('EjecutarPresupuesto')}}"><i class="zmdi zmdi-home"></i> Ejecutar Presupuesto</a></li>
+                        @if(Auth::user()->role == 'Finanzas')
+                            <li class="@@indexactive"><a href="{{route('Departamentos')}}"><i class="zmdi zmdi-home"></i>Departamentos</a></li>
+                        @endif
+                        @if(Auth::user()->role == 'Finanzas')
+                            <li class="@@indexactive"><a href="{{route('NuevoDepartamento')}}"><i class="zmdi zmdi-home"></i>Crear un Nuevo Departamento</a></li>
+                        @endif
+                        @if(Auth::user()->role == 'Finanzas')
+                            <li class="@@indexactive"><a href="{{route('EnrolarSolicitante')}}"><i class="zmdi zmdi-home"></i>Enrolar Solicitante</a></li>
+                            @if(Auth::user()->role == 'Finanzas')
+                                <li class="@@indexactive"><a href="{{route('Solicitantes')}}"><i class="zmdi zmdi-home"></i>Solicitantes</a></li>
+                            @endif
                         @endif
                             <li class="@@indexactive"> <a href="{{ route('logout') }}"
                                onclick="event.preventDefault();
@@ -109,10 +124,10 @@ max-height:100%;"  >
                             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                 @csrf
                             </form>
-                        </div>
 
 
-                    </ul>
+
+                </ul>
                 </div>
             </aside>
 

@@ -14,7 +14,7 @@
 
 @if(Auth::user()->role === 'Finanzas' || Auth::user()->role === 'Rectoria' )
     <div align="center" class="row">
-        <h2>Periodo Presupuestal {{$PeriodoPresupuestal->nombrePeriodoPresupuestal}} en Proceso de solicitudes del {{$PeriodoPresupuestal->fechaHoraInicioPeriodoPresupuestal}} al {{$PeriodoPresupuestal->fechaHoraTerminoPeriodoPresupuestal}} </h2>
+        <h2>Periodo Presupuestal {{$PeriodoPresupuestal->nombrePeriodoPresupuestal}} en Proceso de solicitudes desde {{$PeriodoPresupuestal->fechaHoraInicioPeriodoPresupuestal}}</h2>
     </div>
     <br>
     <div class="row quick-stats">

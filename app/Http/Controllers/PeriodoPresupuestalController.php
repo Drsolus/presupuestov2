@@ -31,8 +31,8 @@ class PeriodoPresupuestalController extends Controller
      {
          $nombreNuevoAtributo = input::get('NuevoAtributo');
          $validacion= DB::table('catalogoatributosadicionales')
-             ->where('nombreCatalogoAtributoAdicional','!=',''.$nombreNuevoAtributo)->get();
-         if($validacion->isEmpty())
+             ->where('nombreCatalogoAtributoAdicional','=',$nombreNuevoAtributo)->first();
+         if($validacion =='')
          {
              $q=  DB::table('catalogoatributosadicionales')
                  ->insertGetId([
@@ -40,10 +40,10 @@ class PeriodoPresupuestalController extends Controller
                      'fechaCreacionAtributoAdicional'=> Carbon::today(),
                      'estadoCatalogoAtributoAdicional'=>1
                  ]);
-             return response()->json(array('success' => true, 'result' => 1));
+             return response()->json(array('success' => true, 'result' => $validacion));
          }else
              {
-                 return response()->json(array('success' => false, 'result' => 2));
+                 return response()->json(array('success' => false, 'result' => $nombreNuevoAtributo));
              }
 
      }else
@@ -59,17 +59,19 @@ class PeriodoPresupuestalController extends Controller
      {
          DB::table('periodospresupuestales')
          ->where('fkIdEstadoPeriodoPresupuestal','=','1')
-         ->update(['fkIdEstadoPeriodoPresupuestal'=> 3]);
+         ->update(['fkIdEstadoPeriodoPresupuestal'=> 3,
+             'fechaHoraTerminoPeriodoPresupuestal'=>Carbon::today()]);
          DB::table('presupuestos')
              ->where('fkPeriodoPresupuestal','!=','9')
-             ->update(['fkEstadoPresupuesto'=> 9]);
+             ->update(['fkEstadoPresupuesto'=> 9,
+                 'fechaCierrePresupuesto'=>Carbon::today()]);
          DB::table('lineasdedetalle')
              ->where('fkIdEstadoLineaDeDetalle','!=','4')
              ->update(['fkIdEstadoLineaDeDetalle'=> 5]);
 
           $nombrePeriodo=$request->input('nombrePeriodo');
          $fechaInicio=$request->input('fechaInicio');
-         $fechaTermino= $request->input('fechaTermino');
+         $fechaTermino='00-00-00 00:00';
          $AtributosAdicionales= $request->input('atributoAdicional');
          $idPeriodoPresupuestal= DB::table('periodospresupuestales')
          ->insertGetId([
@@ -113,6 +115,21 @@ class PeriodoPresupuestalController extends Controller
          return redirect()->route('PeriodosPresupuestales');
      }
      return redirect()->route('home');
+ }
+
+ public function verdetalle(Request $request)
+ {
+     $rol=Auth::User()->role;
+     if($rol=='Finanzas' || $rol=='Rectoria')
+     {
+          $id=$request->id;
+          $PeriodoPresupuestal=PeriodoPresupuestal::where('idPeriodoPresupuestal','=',$id)->firstOrFail();
+         //$PeriodoPresupuestal->nombrePeriodoPresupuestal;
+          return view('DetallePeriodosPresupuestales')->with(['PeriodoPresupuestal'=>$PeriodoPresupuestal]);
+
+     }
+
+
  }
 
 
