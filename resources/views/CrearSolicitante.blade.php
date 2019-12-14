@@ -43,9 +43,15 @@
                         <label class="col-md-4 col-form-label text-md-right" for="">Seleccione Departamento:</label>
 
                             <select  name="idDepartamento" required class="form-control"  >
-                                <option value="">Seleccione Departamento Superior</option>
+                                <option style="margin: 40px;
+    background: rgb(17,57,54);
+    color: #FFFFFF;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);" value="">Seleccione Departamento Superior</option>
                                 @foreach($Departamentos as $Departamento)
-                                    <option value="{{$Departamento->idDepartamento}}">{{$Departamento->nombreDepartamento}}</option>
+                                    <option style="margin: 40px;
+    background: rgb(17,57,54);
+    color: #FFFFFF;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);" value="{{$Departamento->idDepartamento}}">{{$Departamento->nombreDepartamento}}</option>
                                 @endforeach
                             </select>
 

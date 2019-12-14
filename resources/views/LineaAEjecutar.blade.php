@@ -23,7 +23,7 @@
 
         <div class="row">
                     <div class="col-md-6">
-                        <input maxlength="11" required name="ValorActualizado" type="number" class="form-control form-control-lg"
+                        <input maxlength="11" required name="ValorActualizado" id="ValorActualizado" type="number" class="form-control form-control-lg"
                         min="{{$Linea->presupuestoEjecutado}}"  max="{{$Linea->presupuestoAprobado}}" placeholder="Ingrese Nuevo Monto">
                     </div>
         </div>
@@ -73,3 +73,4 @@
 
     });
 </script>
+

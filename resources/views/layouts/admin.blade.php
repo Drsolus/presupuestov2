@@ -97,7 +97,7 @@ max-height:100%;"  >
                         @if(Auth::user()->role == 'Rectoria')
                             <li class="@@indexactive"><a href="{{route('AprobarPresupuestos')}}"><i class="zmdi zmdi-home"></i> Aprobar Presupuesto</a></li>
                         @endif
-                        @if(Auth::user()->role == 'Finanzas')
+                        @if(Auth::user()->role == 'Finanzas' || Auth::user()->role == 'Rectoria')
                             <li class="@@indexactive"><a href="{{route('PeriodosPresupuestales')}}"><i class="zmdi zmdi-home"></i>Periodos Presupuestales</a></li>
                         @endif
                         @if(Auth::user()->role == 'Finanzas')

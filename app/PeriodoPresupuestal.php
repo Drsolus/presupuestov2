@@ -22,7 +22,7 @@ class PeriodoPresupuestal extends Model
     }
     Public Function LineaDeDetalle()
     {
-        return $this->hasManyThrough('App\LineaDeDetalle','App\Presupuesto');
+        return $this->hasManyThrough('App\LineaDeDetalle','App\Presupuesto','fkPeriodoPresupuestal','fkIdPresupuesto','idPeriodoPresupuestal','idPresupuesto');
     }
     Public function CatalogoAtributoAdicional()
     {

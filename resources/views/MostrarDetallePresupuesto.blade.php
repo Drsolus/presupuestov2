@@ -47,6 +47,9 @@
                             <th>Id Linea</th>
                             <th>Descripcion</th>
                             <th>Valor Solicitado</th>
+                            <th>Valor Solicitado</th>
+                            <th>Valor Aprobado</th>
+                            <th>Valor Ejecutado</th>
                             @foreach($lineas as $linea)
                                 <th>{{ $linea->nombreAtributoAdicional }}</th>
                             @endforeach
@@ -60,6 +63,8 @@
                                 <td>{{ $linea->descripcionLineaDeDetalle }}</td>
                                 <td>{{ $linea->presupuestoSolicitado }}</td>
                                 <td>{{ $linea->valorAtributoAdicional }}</td>
+                                <td>{{$Linea->presupuestoAprobado}}</td>
+                                <td>{{$Linea->presupuestoEjecutado}}</td>
                                 <td><input type="number" name="valoraAprobar"></td>
                                 <td>
                                     <button class="btn btn-success glyphicon glyphicon-ok">Aprobar</button>

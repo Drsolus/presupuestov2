@@ -26,9 +26,15 @@
 
                     <div class="col-md-6">
                         <select  name="posicionDepartamento" required class="form-control"  >
-                        <option value="">Seleccione Departamento Superior</option>
+                        <option style="margin: 40px;
+    background: rgb(17,57,54);
+    color: #FFFFFF;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);" value="">Seleccione Departamento Superior</option>
                         @foreach(\App\Departamento::all() as $Departamento)
-                            <option value="{{$Departamento->idDepartamento}}">{{$Departamento->nombreDepartamento}}</option>
+                            <option style="margin: 40px;
+    background: rgb(17,57,54);
+    color: #FFFFFF;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);" value="{{$Departamento->idDepartamento}}">{{$Departamento->nombreDepartamento}}</option>
                             @endforeach
                         </select>
                     </div>

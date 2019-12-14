@@ -54,6 +54,8 @@
                         <th>Departamento</th>
                         <th>NombreSolicitante</th>
                         <th>Valor Solicitado</th>
+                        <th>Valor Aprobado</th>
+                        <th>Valor Ejecutado</th>
                         @foreach($PeriodoPresupuestal->CatalogoAtributoAdicional as $Atributo)
                             <th>{{$Atributo->nombreCatalogoAtributoAdicional}}</th>
                         @endforeach
@@ -69,6 +71,8 @@
                             <td>{{$presupuesto->Departamento->nombreDepartamento}}</td>
                             <td>{{$Linea->Presupuesto->nombreSolicitantePresupuesto}}</td>
                             <td>{{$Linea->presupuestoSolicitado}}</td>
+                            <td>{{$Linea->presupuestoAprobado}}</td>
+                            <td>{{$Linea->presupuestoEjecutado}}</td>
                             @foreach($Linea->AtributoAdicional as $AtributoLinea)
                                 <td>{{$AtributoLinea->valorAtributoAdicional}}</td>
 

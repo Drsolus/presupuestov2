@@ -5,7 +5,9 @@
                             <th>Nombre Solicitante</th>
                             <th>Departamento</th>
                             <th>Estado Presupuesto</th>
+                            @if(Auth::user()->role == 'Finanzas')
                             <th>ReAbrir Solicitud</th>
+                            @endif
                             <th>Estado Periodo Presupuestal</th>
                             <th>Opciones</th>
                         </tr>
@@ -17,10 +19,12 @@
         <td>{{ $presupuesto->nombreSolicitantePresupuesto }}</td>
         <td>{{ $presupuesto->Departamento->nombreDepartamento }}</td>
         <td>{{ $Estado= $presupuesto->CatalogoEstadoPresupuesto->nombreEstadoPresupuesto}}</td>
-        @if($Estado=='Enviado' || $Estado=='Rechazado' || $Estado== 'Aprobado en su Totalidad' || $Estado== 'Aprobado con Observaciones'||$Estado== 'En Ejecucion' )
+        @if(Auth::user()->role == 'Finanzas' && ($Estado=='Enviado' || $Estado=='Rechazado' || $Estado== 'Aprobado en su Totalidad' || $Estado== 'Aprobado con Observaciones'||$Estado== 'En Ejecucion') )
             <td><button onclick="Reactivar({{$presupuesto->idPresupuesto}})" class="btn btn-dark btn--icon-text"><i class="zmdi zmdi-arrow-back"></i>ReActivar</button> </td>
-        @else
+        @elseif(Auth::user()->role == 'Finanzas')
             <td></td>
+            @else
+
         @endif
         <td>{{ $presupuesto->PeriodoPresupuestal->CatalogoEstadoPeriodoPresupuestal->nombreEstadoPeriodoPresupuestal }}</td>
 

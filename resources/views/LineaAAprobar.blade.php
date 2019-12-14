@@ -23,8 +23,8 @@
 
         <div class="row">
             <div class="col-md-6">
-                <input maxlength="11" required name="ValorAprobado" type="number" class="form-control form-control-lg"
-                       min="1"  placeholder="Ingrese Monto A Aprobar">
+                <input maxlength="11" id="ValorAprobado" required name="ValorAprobado" type="number" class="form-control form-control-lg"
+                       min="1"  placeholder="Ingrese Monto A Aprobar"> <button type="button" onclick="copiarvalor()" class="btn btn-dark">Copiar Monto a Aprobar</button>
             </div>
         </div>
 
@@ -36,7 +36,7 @@
 
     <div class="Button-Container">
         <div>
-            <input style="margin-top: 40px" type="submit" class="btn btn-info" Value="Actualizar">
+            <input style="margin-top: 40px" type="submit" class="btn btn-info" Value="Aprobar">
         </div>
     </div>
     </diV>
@@ -74,3 +74,11 @@
     });
 </script>
 
+<script>
+    function copiarvalor()
+    {
+        var valorcopiar= "{{$Linea->presupuestoSolicitado}}";
+        $("#ValorAprobado").val(valorcopiar);
+
+    }
+</script>

@@ -39,20 +39,20 @@ class HomeController extends Controller
     {
         if (Auth::user()->role === 'Finanzas' || Auth::user()->role === 'Rectoria') {
 
-            $PeriodoActualSolicitudes = PeriodoPresupuestal::where('fkIdEstadoPeriodoPresupuestal', '=', '1')->firstOrFail();
-            $DatosGraficos = array();
+            $PeriodoActualSolicitudes = PeriodoPresupuestal::where('fkIdEstadoPeriodoPresupuestal', '=', '1')->first();
+
             $PeriodosPresupuestales = PeriodoPresupuestal::all();
-            foreach ($PeriodosPresupuestales as $PeriodoPresupuestal) {
-                $Presupuestos = $PeriodoPresupuestal->Presupuesto;
-                foreach ($Presupuestos as $Presupuesto) {
-                    $DatosGraficos[] = array($Presupuesto, $Presupuesto->LineasDeDetalle->sum('presupuestoSolicitado'), $Presupuesto->LineasDeDetalle->sum('presupuestoAprobado'), $Presupuesto->LineasDeDetalle->sum('presupuestoEjecutado'));
-
-                }
 
 
-            }
 
-            return view('Dashboard')->with(['datosGraficos' => $DatosGraficos, 'PeriodoPresupuestal' => $PeriodoActualSolicitudes]);;
+                    //$DatosGraficos[] = array($Presupuesto, $Presupuesto->LineasDeDetalle->sum('presupuestoSolicitado'), $Presupuesto->LineasDeDetalle->sum('presupuestoAprobado'), $Presupuesto->LineasDeDetalle->sum('presupuestoEjecutado'));
+
+
+
+
+
+
+            return view('Dashboard')->with(['PeriodosPresupuestales' => $PeriodosPresupuestales, 'PeriodoPresupuestal' => $PeriodoActualSolicitudes]);;
 
         } else {
             return view('Dashboard');
@@ -223,21 +223,28 @@ class HomeController extends Controller
 
     public function test()
     {
-        if (Auth::user()->role === 'Finanzas')
+
+        echo $PeriodoActualSolicitudes = PeriodoPresupuestal::where('fkIdEstadoPeriodoPresupuestal', '=', '1')->first();
+
+        if($PeriodoActualSolicitudes != null)
         {
-            $idPresupuesto= '21';
-            DB::table('presupuestos')
-                ->where('idPresupuesto','=',$idPresupuesto)
-                ->where(function ($query) {
-                    $query->where('fkEstadoPresupuesto', '=', '3')
-                        ->orWhere('fkEstadoPresupuesto', '=', '5')
-                        ->orWhere('fkEstadoPresupuesto', '=', '6')
-                        ->orWhere('fkEstadoPresupuesto', '=', '7')
-                        ->orWhere('fkEstadoPresupuesto', '=', '8');
-                })
-                ->update(['fkEstadoPresupuesto'=>'2']);
-            //return response()->json(array('success' => true, 'result' => 'Correcto'));
+        echo 'No esta vacio';
         }
+        else
+            {
+                echo 'Esta vacio';
+            }
+        echo $PeriodosPresupuestales = PeriodoPresupuestal::all();
+        if($PeriodosPresupuestales->isNotEmpty())
+        {
+            echo 'No esta vacio';
+        }
+        else
+        {
+            echo 'Esta vacio';
+        }
+
+        echo 'test';
     }
 
     public function NuevoDepartamento()

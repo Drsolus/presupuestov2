@@ -18,7 +18,7 @@
                     </div>
                     <div class="input-group">
                         <span class="input-group-addon">$</span>
-                        <input maxlength="11" name="PresupuestoSolicitado" type="number" class="form-control form-control-lg"
+                        <input maxlength="11" max="2147483647" name="PresupuestoSolicitado" type="number" class="form-control form-control-lg"
                                placeholder="Valor Solicitado">
                     </div>
                     @foreach($AtributosARenderizar as $Atributo)

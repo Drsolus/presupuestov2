@@ -38,18 +38,6 @@
                         @endif
                     </div>
                 </div>
-                <div class="form-group row">
-                    <label for="fechaTermino" class="col-md-4 col-form-label text-md-right">{{ __('Fecha Termino Solicitudes') }}</label>
-
-                    <div class="col-md-6">
-                        <input required type="text" name="fechaTermino" class="form-control datetime-picker flatpickr-input active" placeholder="Selecionne Fecha y hora de termino tentativas para el Cierre del Presupuesto " readonly="readonly">
-                        @if ($errors->has('fechaTermino'))
-                            <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $errors->first('fechaTermino') }}</strong>
-                                    </span>
-                        @endif
-                    </div>
-                </div>
 
                 <div class="form-group row">
                     <label for="AtributosAdicionales" class="col-md-4 col-form-label text-md-right">{{ __('Seleccione los Atributos Adicionales Para el siguiente periodo Presupuestal') }}</label>
