@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: localhost
--- Tiempo de generación: 15-11-2019 a las 01:42:01
+-- Tiempo de generación: 14-12-2019 a las 03:16:22
 -- Versión del servidor: 5.7.24
 -- Versión de PHP: 7.2.19
 
@@ -40,7 +40,669 @@ CREATE TABLE `atributosadicionales` (
 --
 
 INSERT INTO `atributosadicionales` (`idAtributoAdicional`, `nombreAtributoAdicional`, `valorAtributoAdicional`, `fkIdLineaDeDetalle`) VALUES
-(1, 'Precio en UF', '10010101', 1);
+(7, 'Precio en UF', '121', 41),
+(8, 'Objetivo', '1212', 41),
+(9, 'Unidades', '12', 41),
+(10, 'Costo Unitario', '12', 41),
+(11, 'Observaciones', '12', 41),
+(12, 'Atributotazo', '12', 41),
+(13, 'Precio en UF', '111', 42),
+(14, 'Objetivo', 'Ovjetivo', 42),
+(15, 'Unidades', 'Uni UNi', 42),
+(16, 'Costo Unitario', 'Costo Costo', 42),
+(17, 'Observaciones', 'Observaciones', 42),
+(18, 'Atributotazo', 'Atributonazo', 42),
+(30, 'Precio en UF', 'asdasd', 45),
+(31, 'Accion', 'sadasd', 45),
+(32, 'Unidades', 'sdasd', 45),
+(33, 'Costo Unitario', 'sadasd', 45),
+(34, 'Observaciones', 'sdasd', 45),
+(35, 'Atributotazo', 'asdasd', 45),
+(36, 'Accion', 'Comprar', 46),
+(37, 'Objetivo', 'Reponer laboratiorio', 46),
+(38, 'Unidades', '20', 46),
+(39, 'Atributotazo', '1', 46),
+(40, 'Atributo Adicional iteracion1', 'Iteracion 1', 46),
+(46, 'Accion', 'Action', 48),
+(47, 'Objetivo', 'Objetivo', 48),
+(48, 'Atributotazo', '1', 48),
+(49, 'Atributo Adicional iteracion1', 'Iteracion 1 de envio de presupuesto', 48),
+(50, 'Accion', '1', 49),
+(51, 'Objetivo', '1', 49),
+(52, 'Atributotazo', '1', 49),
+(53, 'Atributo Adicional iteracion1', '1', 49),
+(54, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 50),
+(55, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 50),
+(56, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 50),
+(57, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 50),
+(58, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 50),
+(59, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 50),
+(60, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 50),
+(61, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 50),
+(62, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 50),
+(63, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 50),
+(64, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 51),
+(65, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 51),
+(66, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 51),
+(67, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 51),
+(68, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 51),
+(69, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 51),
+(70, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 51),
+(71, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 51),
+(72, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 51),
+(73, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 51),
+(74, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 52),
+(75, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 52),
+(76, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 52),
+(77, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 52),
+(78, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 52),
+(79, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 52),
+(80, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 52),
+(81, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 52),
+(82, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 52),
+(83, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 52),
+(84, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 53),
+(85, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 53),
+(86, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 53),
+(87, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 53),
+(88, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 53),
+(89, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 53),
+(90, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 53),
+(91, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 53),
+(92, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 53),
+(93, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 53),
+(94, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 54),
+(95, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 54),
+(96, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 54),
+(97, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 54),
+(98, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 54),
+(99, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 54),
+(100, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 54),
+(101, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 54),
+(102, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 54),
+(103, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 54),
+(104, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 55),
+(105, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 55),
+(106, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 55),
+(107, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 55),
+(108, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 55),
+(109, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 55),
+(110, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 55),
+(111, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 55),
+(112, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 55),
+(113, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 55),
+(114, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 56),
+(115, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 56),
+(116, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 56),
+(117, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 56),
+(118, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 56),
+(119, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 56),
+(120, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 56),
+(121, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 56),
+(122, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 56),
+(123, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 56),
+(124, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 57),
+(125, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 57),
+(126, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 57),
+(127, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 57),
+(128, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 57),
+(129, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 57),
+(130, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 57),
+(131, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 57),
+(132, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 57),
+(133, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 57),
+(134, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 58),
+(135, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 58),
+(136, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 58),
+(137, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 58),
+(138, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 58),
+(139, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 58),
+(140, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 58),
+(141, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 58),
+(142, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 58),
+(143, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 58),
+(144, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 59),
+(145, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 59),
+(146, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 59),
+(147, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 59),
+(148, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 59),
+(149, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 59),
+(150, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 59),
+(151, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 59),
+(152, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 59),
+(153, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 59),
+(154, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 60),
+(155, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 60),
+(156, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 60),
+(157, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 60),
+(158, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 60),
+(159, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 60),
+(160, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 60),
+(161, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 60),
+(162, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 60),
+(163, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 60),
+(164, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 61),
+(165, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 61),
+(166, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 61),
+(167, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 61),
+(168, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 61),
+(169, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 61),
+(170, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 61),
+(171, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 61),
+(172, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 61),
+(173, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 61),
+(174, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 62),
+(175, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 62),
+(176, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 62),
+(177, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 62),
+(178, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 62),
+(179, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 62),
+(180, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 62),
+(181, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 62),
+(182, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 62),
+(183, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 62),
+(184, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 63),
+(185, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 63),
+(186, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 63),
+(187, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 63),
+(188, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 63),
+(189, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 63),
+(190, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 64),
+(191, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 63),
+(192, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 64),
+(193, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 63),
+(194, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 64),
+(195, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 63),
+(196, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 64),
+(197, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 63),
+(198, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 64),
+(199, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 64),
+(200, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 64);
+INSERT INTO `atributosadicionales` (`idAtributoAdicional`, `nombreAtributoAdicional`, `valorAtributoAdicional`, `fkIdLineaDeDetalle`) VALUES
+(201, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 64),
+(202, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 64),
+(203, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 64),
+(204, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 65),
+(205, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 65),
+(206, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 65),
+(207, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 65),
+(208, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 65),
+(209, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 65),
+(210, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 65),
+(211, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 65),
+(212, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 65),
+(213, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 65),
+(214, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 66),
+(215, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 66),
+(216, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 66),
+(217, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 66),
+(218, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 66),
+(219, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 66),
+(220, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 66),
+(221, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 66),
+(222, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 66),
+(223, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 66),
+(224, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 67),
+(225, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 67),
+(226, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 67),
+(227, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 67),
+(228, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 67),
+(229, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 67),
+(230, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 67),
+(231, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 67),
+(232, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 67),
+(233, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 67),
+(234, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 68),
+(235, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 68),
+(236, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 68),
+(237, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 68),
+(238, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 68),
+(239, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 68),
+(240, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 68),
+(241, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 68),
+(242, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 68),
+(243, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 68),
+(244, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 69),
+(245, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 69),
+(246, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 69),
+(247, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 69),
+(248, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 69),
+(249, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 69),
+(250, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 69),
+(251, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 69),
+(252, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 69),
+(253, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 69),
+(254, 'Precio en UF', '121212', 70),
+(255, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 70),
+(256, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 70),
+(257, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 70),
+(258, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 70),
+(259, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 70),
+(260, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 70),
+(261, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 70),
+(262, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 70),
+(263, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 70),
+(264, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 71),
+(265, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 71),
+(266, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 71),
+(267, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 71),
+(268, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 71),
+(269, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 71),
+(270, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 71),
+(271, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 71),
+(272, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 71),
+(273, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 71),
+(274, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 72),
+(275, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 72),
+(276, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 72),
+(277, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 72),
+(278, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 72),
+(279, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 72),
+(280, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 72),
+(281, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 72),
+(282, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 72),
+(283, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 72),
+(284, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 73),
+(285, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 73),
+(286, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 73),
+(287, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 73),
+(288, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 73),
+(289, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 73),
+(290, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 73),
+(291, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 73),
+(292, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 73),
+(293, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 73),
+(294, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 74),
+(295, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 74),
+(296, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 74),
+(297, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 74),
+(298, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 74),
+(299, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 74),
+(300, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 74),
+(301, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 74),
+(302, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 74),
+(303, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 74),
+(304, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 75),
+(305, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 75),
+(306, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 75),
+(307, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 75),
+(308, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 75),
+(309, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 75),
+(310, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 75),
+(311, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 75),
+(312, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 75),
+(313, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 75),
+(314, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 76),
+(315, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 76),
+(316, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 76),
+(317, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 76),
+(318, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 76),
+(319, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 76),
+(320, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 76),
+(321, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 76),
+(322, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 76),
+(323, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 76),
+(324, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 77),
+(325, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 77),
+(326, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 77),
+(327, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 77),
+(328, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 77),
+(329, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 77),
+(330, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 77),
+(331, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 77),
+(332, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 77),
+(333, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 77),
+(334, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 78),
+(335, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 78),
+(336, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 78),
+(337, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 78),
+(338, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 78),
+(339, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 78),
+(340, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 78),
+(341, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 78),
+(342, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 78),
+(343, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 78),
+(344, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 79),
+(345, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 79),
+(346, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 79),
+(347, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 79),
+(348, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 79),
+(349, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 79),
+(350, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 79),
+(351, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 79);
+INSERT INTO `atributosadicionales` (`idAtributoAdicional`, `nombreAtributoAdicional`, `valorAtributoAdicional`, `fkIdLineaDeDetalle`) VALUES
+(352, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 79),
+(353, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 79),
+(354, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 80),
+(355, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 80),
+(356, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 80),
+(357, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 80),
+(358, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 80),
+(359, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 80),
+(360, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 80),
+(361, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 80),
+(362, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 80),
+(363, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 80),
+(364, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 81),
+(365, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 81),
+(366, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 81),
+(367, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 81),
+(368, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 81),
+(369, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 81),
+(370, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 81),
+(371, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 81),
+(372, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 81),
+(373, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius estLorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 81),
+(374, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 82),
+(375, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 82),
+(376, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 82),
+(377, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 82),
+(378, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 82),
+(379, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 82),
+(380, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 82),
+(381, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 82),
+(382, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 82),
+(383, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 82),
+(384, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 83),
+(385, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 83),
+(386, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 83),
+(387, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 83),
+(388, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 83),
+(389, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 83),
+(390, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 83),
+(391, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 83),
+(392, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 83),
+(393, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 83),
+(394, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 84),
+(395, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 84),
+(396, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 84),
+(397, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 84),
+(398, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 84),
+(399, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 84),
+(400, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 84),
+(401, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 84),
+(402, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 84),
+(403, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 84),
+(404, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 85),
+(405, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 85),
+(406, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 85),
+(407, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 85),
+(408, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 85),
+(409, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 85),
+(410, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 85),
+(411, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 85),
+(412, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 85),
+(413, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 85),
+(414, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 86),
+(415, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 86),
+(416, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 86),
+(417, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 86),
+(418, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 86),
+(419, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 86),
+(420, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 86),
+(421, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 86),
+(422, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 86),
+(423, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 86),
+(424, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 87),
+(425, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 87),
+(426, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 87),
+(427, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 87),
+(428, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 87),
+(429, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 87),
+(430, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 87),
+(431, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 87),
+(432, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 87),
+(433, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 87),
+(434, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 88),
+(435, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 88),
+(436, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 88),
+(437, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 88),
+(438, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 88),
+(439, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 88),
+(440, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 88),
+(441, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 88),
+(442, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 88),
+(443, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 88),
+(444, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 89),
+(445, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 89),
+(446, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 89),
+(447, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 89),
+(448, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 89),
+(449, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 89),
+(450, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 89),
+(451, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 89),
+(452, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 89),
+(453, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 89),
+(454, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 90),
+(455, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 90),
+(456, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius estLorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius estLorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 90),
+(457, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius estLorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 90),
+(458, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius estLorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 90),
+(459, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius estLorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 90),
+(460, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius estLorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 90),
+(461, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius estLorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius estLorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 90),
+(462, 'Url de compra', '1121212', 90),
+(463, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius estLorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 90),
+(464, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 91),
+(465, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 91),
+(466, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 91),
+(467, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 91),
+(468, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 91),
+(469, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 91),
+(470, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 91),
+(471, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 91),
+(472, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 91),
+(473, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 91),
+(474, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 92),
+(475, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 92),
+(476, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 92),
+(477, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 92),
+(478, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 92),
+(479, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 92),
+(480, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 92),
+(481, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 92),
+(482, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 92),
+(483, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 92),
+(484, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 93),
+(485, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 93),
+(486, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 93),
+(487, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius estLorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 93),
+(488, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius estLorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est222', 93),
+(489, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est1212', 93),
+(490, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 93),
+(491, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est23232', 93),
+(492, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est11212', 93),
+(493, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 93),
+(494, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 94),
+(495, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 94),
+(496, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 94),
+(497, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 94),
+(498, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 94),
+(499, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 94),
+(500, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 94),
+(501, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 94),
+(502, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 94),
+(503, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 94),
+(504, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 95),
+(505, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 95),
+(506, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 95),
+(507, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 95),
+(508, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 95),
+(509, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius estLorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius estLorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 95),
+(510, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 95),
+(511, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 95),
+(512, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 95),
+(513, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 95),
+(514, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 96),
+(515, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 96),
+(516, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 96),
+(517, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 96),
+(518, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 96),
+(519, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 96),
+(520, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius estLorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius estLorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 96),
+(521, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius estLorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 96),
+(522, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 96),
+(523, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 96),
+(524, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 97),
+(525, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 97),
+(526, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 97),
+(527, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 97),
+(528, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 97),
+(529, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 97),
+(530, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 97),
+(531, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 97),
+(532, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 97),
+(533, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 97),
+(534, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 98),
+(535, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 98),
+(536, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 98),
+(537, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 98),
+(538, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 98),
+(539, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 98),
+(540, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 98),
+(541, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 98),
+(542, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 98),
+(543, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 98),
+(544, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 99),
+(545, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 99),
+(546, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 99),
+(547, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 99),
+(548, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 99),
+(549, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 99),
+(550, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 99),
+(551, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 99),
+(552, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 99),
+(553, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 99),
+(554, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 100),
+(555, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 100),
+(556, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 100),
+(557, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 100),
+(558, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 100),
+(559, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 100),
+(560, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 100),
+(561, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 100),
+(562, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 100),
+(563, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 100),
+(564, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 101),
+(565, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 101),
+(566, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 101),
+(567, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 101),
+(568, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 101),
+(569, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 101),
+(570, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 101),
+(571, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 101),
+(572, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 101),
+(573, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 101),
+(574, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 102),
+(575, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 102),
+(576, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 102),
+(577, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 102),
+(578, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 102),
+(579, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 102),
+(580, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius estLorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius estLorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 102),
+(581, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 102),
+(582, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 102),
+(583, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 102),
+(584, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 103),
+(585, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 103),
+(586, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 103),
+(587, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 103),
+(588, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 103),
+(589, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 103),
+(590, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 103),
+(591, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 103),
+(592, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est sodales in. Fusce mi erat, sollicitudin nec est nec, euismod posuere ex. Donec sed leo arcu. Donec urna leo, consequat eu pulvinar sit amet, gravida a elit. Aenean viverra, massa consectetur vulputat', 103),
+(593, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 103),
+(594, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 104),
+(595, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 104),
+(596, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 104),
+(597, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 104),
+(598, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 104),
+(599, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 104),
+(600, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 104),
+(601, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 104),
+(602, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 104),
+(603, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 104),
+(604, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 105),
+(605, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 105),
+(606, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 105),
+(607, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 105),
+(608, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 105),
+(609, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 105),
+(610, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 105),
+(611, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 105),
+(612, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 105),
+(613, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 105),
+(614, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 106),
+(615, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 106),
+(616, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 106),
+(617, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 106),
+(618, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 106),
+(619, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 106),
+(620, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 106),
+(621, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 106),
+(622, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 106),
+(623, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 106),
+(624, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 107),
+(625, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 107),
+(626, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 107),
+(627, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 107),
+(628, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 107),
+(629, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 107),
+(630, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 107),
+(631, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 107),
+(632, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 107),
+(633, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 107),
+(634, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 108),
+(635, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 108),
+(636, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 108),
+(637, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 108),
+(638, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 108),
+(639, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 108),
+(640, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 108),
+(641, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 108),
+(642, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 108),
+(643, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 108),
+(644, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 109),
+(645, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 109),
+(646, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 109),
+(647, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 109),
+(648, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 109),
+(649, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 109),
+(650, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 109),
+(651, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 109),
+(652, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 109),
+(653, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 109),
+(654, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 110),
+(655, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 110),
+(656, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 110),
+(657, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 110),
+(658, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 110),
+(659, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 110),
+(660, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 110),
+(661, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 110),
+(662, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 110),
+(663, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 110),
+(664, 'Precio en UF', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 111),
+(665, 'Accion', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 111),
+(666, 'Objetivo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 111),
+(667, 'Unidades', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 111),
+(668, 'Costo Unitario', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 111),
+(669, 'Observaciones', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 111),
+(670, 'Atributotazo', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 111),
+(671, 'Atributo Adicional iteracion1', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 111),
+(672, 'Url de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 111),
+(673, 'Semestre de compra', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 111),
+(674, 'Precio en UF', '1', 112),
+(675, 'Accion', '1', 112),
+(676, 'Objetivo', '1', 112),
+(677, 'Unidades', '1', 112),
+(678, 'Costo Unitario', '1', 112),
+(679, 'Observaciones', '1', 112),
+(680, 'Atributotazo', '1', 112),
+(681, 'Atributo Adicional iteracion1', '1', 112),
+(682, 'Url de compra', '1', 112),
+(683, 'Semestre de compra', '1', 112);
 
 -- --------------------------------------------------------
 
@@ -50,9 +712,8 @@ INSERT INTO `atributosadicionales` (`idAtributoAdicional`, `nombreAtributoAdicio
 
 CREATE TABLE `catalogoatributosadicionales` (
   `idCatalogoAtributoAdicional` int(11) NOT NULL COMMENT 'TRIAL',
-  `nombreCatalogoAtributoAdicional` varchar(20) COLLATE utf8_spanish_ci NOT NULL COMMENT 'TRIAL',
-  `fechaHoraCreacionAtributoAdicional` datetime(3) NOT NULL COMMENT 'TRIAL',
-  `fkPeriodoPresupuestal` int(11) NOT NULL COMMENT 'TRIAL',
+  `nombreCatalogoAtributoAdicional` varchar(30) COLLATE utf8_spanish_ci NOT NULL COMMENT 'TRIAL',
+  `fechaCreacionAtributoAdicional` date NOT NULL COMMENT 'TRIAL',
   `estadoCatalogoAtributoadicional` int(11) DEFAULT NULL COMMENT 'TRIAL'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci COMMENT='TRIAL';
 
@@ -60,9 +721,18 @@ CREATE TABLE `catalogoatributosadicionales` (
 -- Volcado de datos para la tabla `catalogoatributosadicionales`
 --
 
-INSERT INTO `catalogoatributosadicionales` (`idCatalogoAtributoAdicional`, `nombreCatalogoAtributoAdicional`, `fechaHoraCreacionAtributoAdicional`, `fkPeriodoPresupuestal`, `estadoCatalogoAtributoadicional`) VALUES
-(1, 'Precio en UF', '2019-11-07 00:00:00.000', 1, 1),
-(2, 'Adicional2', '2019-11-07 00:00:00.000', 1, 1);
+INSERT INTO `catalogoatributosadicionales` (`idCatalogoAtributoAdicional`, `nombreCatalogoAtributoAdicional`, `fechaCreacionAtributoAdicional`, `estadoCatalogoAtributoadicional`) VALUES
+(1, 'Precio en UF', '2019-11-07', 1),
+(2, 'Adicional2', '2019-11-07', 2),
+(3, 'Accion', '2019-11-28', 1),
+(4, 'Objetivo', '2019-11-28', 1),
+(5, 'Unidades', '2019-11-28', 1),
+(6, 'Costo Unitario', '2019-11-28', 1),
+(7, 'Observaciones', '2019-11-28', 1),
+(8, 'Atributotazo', '2019-12-08', 1),
+(9, 'Atributo Adicional iteracion1', '2019-12-12', 1),
+(10, 'Url de compra', '2019-12-12', 1),
+(11, 'Semestre de compra', '2019-12-12', 1);
 
 -- --------------------------------------------------------
 
@@ -91,8 +761,11 @@ CREATE TABLE `catalogoestadoslineasdedetalle` (
 --
 
 INSERT INTO `catalogoestadoslineasdedetalle` (`idEstadoLineaDeDetalle`, `nombreEstadoLineaDeDetalle`) VALUES
-(1, 'Enviada'),
-(2, 'Guardada');
+(1, 'Guardada'),
+(2, 'Enviada'),
+(3, 'En Ejecuccion'),
+(4, 'Rechazada'),
+(5, 'Cerrada');
 
 -- --------------------------------------------------------
 
@@ -111,7 +784,7 @@ CREATE TABLE `catalogoestadosperiodospresupuestal` (
 
 INSERT INTO `catalogoestadosperiodospresupuestal` (`idEstadoPeriodoPresupuestal`, `nombreEstadoPeriodoPresupuestal`) VALUES
 (1, 'Activo'),
-(2, 'En Solicitud');
+(3, 'Cerrado');
 
 -- --------------------------------------------------------
 
@@ -132,7 +805,12 @@ INSERT INTO `catalogoestadospresupuestos` (`idEstadoPresupuesto`, `nombreEstadoP
 (1, 'Por Activar'),
 (2, 'En Solicitud'),
 (3, 'Enviado'),
-(4, 'Guardado');
+(4, 'Guardado'),
+(5, 'Aprobado en su Totalidad'),
+(6, 'Aprobado con Observaciones'),
+(7, 'Rechazado'),
+(8, 'En Ejecucion'),
+(9, 'Cerrado');
 
 -- --------------------------------------------------------
 
@@ -150,7 +828,8 @@ CREATE TABLE `catalogoestadossolicitantes` (
 --
 
 INSERT INTO `catalogoestadossolicitantes` (`idEstadoSolicitante`, `nombreEstadoSolicitante`) VALUES
-(1, 'Activo');
+(1, 'Activo'),
+(2, 'Inactivo');
 
 -- --------------------------------------------------------
 
@@ -174,17 +853,25 @@ CREATE TABLE `credencialesusuarios` (
 
 CREATE TABLE `departamentos` (
   `idDepartamento` int(11) NOT NULL COMMENT 'TRIAL',
-  `nombreDepartamento` varchar(50) CHARACTER SET utf8 NOT NULL COMMENT 'TRIAL',
-  `manejadoPor` int(11) NOT NULL COMMENT 'TRIAL'
+  `nombreDepartamento` varchar(100) CHARACTER SET utf8 NOT NULL COMMENT 'TRIAL',
+  `posicionDepartamento` varchar(10) COLLATE utf8_spanish_ci NOT NULL COMMENT 'TRIAL'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci COMMENT='TRIAL';
 
 --
 -- Volcado de datos para la tabla `departamentos`
 --
 
-INSERT INTO `departamentos` (`idDepartamento`, `nombreDepartamento`, `manejadoPor`) VALUES
-(1, 'Prueba', 0),
-(2, 'Finanzas', 1);
+INSERT INTO `departamentos` (`idDepartamento`, `nombreDepartamento`, `posicionDepartamento`) VALUES
+(1, 'Rectoria', '1.'),
+(2, 'Finanzas', '1.1.'),
+(3, 'Vicerectoria', '1.2.'),
+(4, 'Area Informatica', '1.2.1.'),
+(5, 'Testing', '1.2.1.1.'),
+(6, 'Calidad', '1.3.'),
+(7, 'Departamento de prueba iteracion 1', '1.4.'),
+(8, 'Departamento de Industrias', '1.2.2.'),
+(9, 'Departamento de Conectividad y Redes', '1.2.3.'),
+(10, 'Departamento de Gestion Academica y Analisis Institucional', '1.2.4.');
 
 -- --------------------------------------------------------
 
@@ -223,7 +910,80 @@ CREATE TABLE `lineasdedetalle` (
 --
 
 INSERT INTO `lineasdedetalle` (`idLineasDeDetalle`, `fechaHoraCreacionLineasDeDetalle`, `descripcionLineaDeDetalle`, `presupuestoSolicitado`, `presupuestoAprobado`, `presupuestoEjecutado`, `fkIdPresupuesto`, `fkIdEstadoLineaDeDetalle`) VALUES
-(1, '2019-11-07 19:00:00.000', 'Blablabla', 1000, 0, 0, 1, 1);
+(36, '2019-12-05 00:00:00.000', 'Descripcion nuevo', 111, 0, 0, 1, 5),
+(37, '2019-12-08 00:00:00.000', 'Wololo', 1212, 0, 0, 1, 5),
+(38, '2019-12-09 00:00:00.000', 'Des', 111, 30, 14, 4, 5),
+(39, '2019-12-09 00:00:00.000', 'Desdesdes', 1, 1, 1, 4, 5),
+(41, '2019-12-10 00:00:00.000', 'des222', 112121, 112021, 12, 20, 5),
+(42, '2019-12-11 00:00:00.000', 'Una descripcion', 11112, 11102, 0, 19, 5),
+(45, '2019-12-11 00:00:00.000', 'Descripcio2', 1111, 1111, 111, 23, 5),
+(46, '2019-12-12 00:00:00.000', '20 Toshiba Intel 20va generacion', 100000000, 0, 0, 27, 5),
+(47, '2019-12-12 00:00:00.000', '1 Super lingote de oro para el grupo que desarollo este software', 1000000, 0, 0, 27, 5),
+(48, '2019-12-12 00:00:00.000', 'Prueba de envio 1', 1000, 1000, 10, 32, 5),
+(49, '2019-12-12 00:00:00.000', 'Reapertura de Presupuesto', 1, 0, 0, 32, 4),
+(50, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 1111, 0, 0, 37, 1),
+(51, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 2, 0, 0, 37, 1),
+(52, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 1111111111, 0, 0, 37, 1),
+(53, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 1111111111, 0, 0, 37, 1),
+(54, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 1212, 0, 0, 37, 1),
+(55, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 121212, 0, 0, 37, 1),
+(56, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 1010101, 0, 0, 37, 1),
+(57, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 11111, 0, 0, 37, 1),
+(58, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 99991, 0, 0, 37, 1),
+(59, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 9991, 0, 0, 37, 1),
+(60, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 11111123, 0, 0, 38, 1),
+(61, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 1111, 0, 0, 38, 1),
+(62, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 1121212, 0, 0, 38, 1),
+(63, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 1121212, 0, 0, 38, 1),
+(64, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 1121212, 0, 0, 38, 1),
+(65, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 111212, 0, 0, 38, 1),
+(66, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 9999181, 0, 0, 38, 1),
+(67, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 1111, 0, 0, 38, 1),
+(68, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 11212, 0, 0, 38, 1),
+(69, '2019-12-12 00:00:00.000', '9898981', 1121212, 0, 0, 38, 1),
+(70, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 1121212, 0, 0, 42, 1),
+(71, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 818181, 0, 0, 42, 1),
+(72, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 121212, 0, 0, 42, 1),
+(73, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 1818181, 0, 0, 42, 1),
+(74, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 9999, 0, 0, 42, 1),
+(75, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 8881, 0, 0, 42, 1),
+(76, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 22221, 0, 0, 42, 1),
+(77, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 7171717, 0, 0, 42, 1),
+(78, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 8887, 0, 0, 42, 1),
+(79, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 81818181, 0, 0, 42, 1),
+(80, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 111, 0, 0, 43, 1),
+(81, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 1121212, 0, 0, 43, 1),
+(82, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 111111, 0, 0, 43, 1),
+(83, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 817817, 0, 0, 43, 1),
+(84, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 14141414, 0, 0, 43, 1),
+(85, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 828282, 0, 0, 43, 1),
+(86, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 121212, 0, 0, 43, 1),
+(87, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 1121212, 0, 0, 43, 1),
+(88, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 11212, 0, 0, 43, 1),
+(89, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 11212, 0, 0, 43, 1),
+(90, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 1212, 0, 0, 44, 1),
+(91, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 1212, 0, 0, 44, 1),
+(92, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 91919, 0, 0, 44, 1),
+(93, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 1111, 0, 0, 44, 1),
+(94, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 98989898, 0, 0, 44, 1),
+(95, '2019-12-12 00:00:00.000', '99819819880919119811', 2222, 0, 0, 44, 1),
+(96, '2019-12-12 00:00:00.000', 'Des des des des lñkaskljda', 191919191, 0, 0, 44, 1),
+(97, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 828282, 0, 0, 44, 1),
+(98, '2019-12-12 00:00:00.000', 'des des des des des des des des des', 92929292, 0, 0, 44, 1),
+(99, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 9191919, 0, 0, 44, 1),
+(100, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 232323, 20202, 0, 40, 3),
+(101, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 1121212, 0, 0, 40, 2),
+(102, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 121212, 0, 0, 40, 2),
+(103, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 12121212, 0, 0, 40, 2),
+(104, '2019-12-12 00:00:00.000', 'desdesdesdes', 2121212, 0, 0, 40, 2),
+(105, '2019-12-12 00:00:00.000', '929292', 112121, 0, 0, 40, 2),
+(106, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 121212, 0, 0, 40, 2),
+(107, '2019-12-12 00:00:00.000', 'Descripcion', 121212, 0, 0, 40, 2),
+(108, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 121212, 0, 0, 40, 2),
+(109, '2019-12-12 00:00:00.000', '2099999rLorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel va', 121212, 0, 0, 40, 2),
+(110, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 121212, 0, 0, 40, 2),
+(111, '2019-12-12 00:00:00.000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum gravida leo, vel varius est', 3131313, 0, 0, 40, 2),
+(112, '2019-12-13 00:00:00.000', 'Des2', 1, 0, 0, 36, 1);
 
 -- --------------------------------------------------------
 
@@ -242,9 +1002,9 @@ CREATE TABLE `migrations` (
 --
 
 INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
-(1, '2014_10_12_000000_create_users_table', 1),
-(2, '2014_10_12_100000_create_password_resets_table', 1),
-(3, '2019_08_19_000000_create_failed_jobs_table', 1);
+(3, '2019_08_19_000000_create_failed_jobs_table', 1),
+(10, '2014_10_12_000000_create_users_table', 2),
+(11, '2014_10_12_100000_create_password_resets_table', 2);
 
 -- --------------------------------------------------------
 
@@ -266,8 +1026,9 @@ CREATE TABLE `password_resets` (
 
 CREATE TABLE `periodospresupuestales` (
   `idPeriodoPresupuestal` int(11) NOT NULL COMMENT 'TRIAL',
+  `nombrePeriodoPresupuestal` varchar(40) COLLATE utf8_spanish_ci NOT NULL,
   `fechaHoraInicioPeriodoPresupuestal` datetime(3) NOT NULL COMMENT 'TRIAL',
-  `fechaHoraTerminoPeriodoPresupuestal` datetime(3) NOT NULL COMMENT 'TRIAL',
+  `fechaHoraTerminoPeriodoPresupuestal` varchar(30) COLLATE utf8_spanish_ci NOT NULL COMMENT 'TRIAL',
   `fkIdEstadoPeriodoPresupuestal` int(11) NOT NULL COMMENT 'TRIAL'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci COMMENT='TRIAL';
 
@@ -275,8 +1036,17 @@ CREATE TABLE `periodospresupuestales` (
 -- Volcado de datos para la tabla `periodospresupuestales`
 --
 
-INSERT INTO `periodospresupuestales` (`idPeriodoPresupuestal`, `fechaHoraInicioPeriodoPresupuestal`, `fechaHoraTerminoPeriodoPresupuestal`, `fkIdEstadoPeriodoPresupuestal`) VALUES
-(1, '2019-11-07 00:00:00.000', '2019-11-30 00:00:00.000', 2);
+INSERT INTO `periodospresupuestales` (`idPeriodoPresupuestal`, `nombrePeriodoPresupuestal`, `fechaHoraInicioPeriodoPresupuestal`, `fechaHoraTerminoPeriodoPresupuestal`, `fkIdEstadoPeriodoPresupuestal`) VALUES
+(1, '', '2019-11-07 00:00:00.000', '2019-11-30 00:00:00.000', 3),
+(2, 'Presupuesto 2020', '2019-12-09 00:00:00.000', '2019-12-26 00:00:00.000', 3),
+(3, 'Presupuesto 2020 REAL', '2019-12-10 12:00:00.000', '2019-12-25 12:00:00.000', 3),
+(7, 'Super Presupuesto Bros Galaxy 2020', '2019-12-10 12:00:00.000', '2019-12-27 00:00:00.000', 3),
+(8, 'Presupuestos 2020 2', '2019-12-11 00:00:00.000', '2019-12-12 00:00:00.000', 3),
+(9, 'Nuevo Periodo Presupuestal Iteracion 1', '2019-12-27 00:00:00.000', '2019-12-12 00:00:00', 3),
+(10, 'Nuevo Periodo Iteracion 1', '2019-12-28 00:00:00.000', '2019-12-12 00:00:00', 3),
+(11, 'Periodo Presupuesto Interacion 1 Prueba', '2019-12-28 00:00:00.000', '2019-12-12 00:00:00', 3),
+(12, 'Periodo Presupuesto Interacion 1 Prueba', '2019-12-28 12:00:00.000', '2019-12-12 00:00:00', 3),
+(13, 'Presupuesto 2020 Gran Carga', '2019-12-12 12:00:00.000', '00-00-00 00:00', 1);
 
 -- --------------------------------------------------------
 
@@ -287,7 +1057,7 @@ INSERT INTO `periodospresupuestales` (`idPeriodoPresupuestal`, `fechaHoraInicioP
 CREATE TABLE `presupuestos` (
   `idPresupuesto` int(11) NOT NULL COMMENT 'TRIAL',
   `fechaHoraCreacionPresupuesto` datetime(3) NOT NULL COMMENT 'TRIAL',
-  `fechaCierrePresupuesto` datetime(3) NOT NULL COMMENT 'TRIAL',
+  `fechaCierrePresupuesto` varchar(30) COLLATE utf8_spanish_ci NOT NULL COMMENT 'TRIAL',
   `nombreSolicitantePresupuesto` varchar(70) CHARACTER SET utf8 NOT NULL COMMENT 'TRIAL',
   `fkIdDepartamento` int(11) NOT NULL COMMENT 'TRIAL',
   `fkEstadoPresupuesto` int(11) NOT NULL COMMENT 'TRIAL',
@@ -299,8 +1069,37 @@ CREATE TABLE `presupuestos` (
 --
 
 INSERT INTO `presupuestos` (`idPresupuesto`, `fechaHoraCreacionPresupuesto`, `fechaCierrePresupuesto`, `nombreSolicitantePresupuesto`, `fkIdDepartamento`, `fkEstadoPresupuesto`, `fkPeriodoPresupuestal`) VALUES
-(1, '2019-11-07 00:00:00.000', '2019-11-29 00:00:00.000', 'Test', 1, 2, 1),
-(2, '2019-11-14 00:00:00.000', '2019-11-21 00:00:00.000', 'Finanzas', 2, 4, 1);
+(1, '2019-11-07 00:00:00.000', '2019-12-12 00:00:00', 'Test', 1, 9, 1),
+(2, '2019-11-14 00:00:00.000', '2019-12-12 00:00:00', 'Finanzas', 2, 9, 1),
+(3, '2019-12-09 00:00:00.000', '2019-12-12 00:00:00', 'SolicitantepRueba SolicitantePatPrueba SolicitanteMatPrueba', 1, 9, 2),
+(4, '2019-12-09 00:00:00.000', '2019-12-12 00:00:00', 'Admin Finanzas Fin Anzas', 2, 9, 2),
+(18, '2019-12-10 12:00:00.000', '2019-12-12 00:00:00', 'Admin Finanzas Fin Anzas', 2, 9, 7),
+(19, '2019-12-10 12:00:00.000', '2019-12-12 00:00:00', 'Director Vice Rectoria', 3, 9, 7),
+(20, '2019-12-10 12:00:00.000', '2019-12-12 00:00:00', 'Director Area Informatica', 4, 9, 7),
+(21, '2019-12-10 12:00:00.000', '2019-12-12 00:00:00', 'Testeo Test Test', 5, 9, 7),
+(22, '2019-12-11 00:00:00.000', '2019-12-12 00:00:00', 'Admin Finanzas Fin Anzas', 2, 9, 8),
+(23, '2019-12-11 00:00:00.000', '2019-12-12 00:00:00', 'Director Vice Rectoria', 3, 9, 8),
+(24, '2019-12-11 00:00:00.000', '2019-12-12 00:00:00', 'Director Area Informatica', 4, 9, 8),
+(25, '2019-12-11 00:00:00.000', '2019-12-12 00:00:00', 'Testeo Test Test', 5, 9, 8),
+(26, '2019-12-28 00:00:00.000', '2019-12-12 00:00:00', 'Admin Finanzas Fin Anzas', 2, 9, 11),
+(27, '2019-12-28 00:00:00.000', '2019-12-12 00:00:00', 'Director Vice Rectoria', 3, 9, 11),
+(28, '2019-12-28 00:00:00.000', '2019-12-12 00:00:00', 'Director Area Informatica', 4, 9, 11),
+(29, '2019-12-28 00:00:00.000', '2019-12-12 00:00:00', 'lalal lalalaskldaskl jasdlkjasdkljsda', 5, 9, 11),
+(30, '2019-12-28 00:00:00.000', '2019-12-12 00:00:00', 'lalal lalalaskldaskl jasdlkjasdkljsda', 6, 9, 11),
+(31, '2019-12-28 12:00:00.000', '2019-12-12 00:00:00', 'Admin Finanzas Fin Anzas', 2, 9, 12),
+(32, '2019-12-28 12:00:00.000', '2019-12-12 00:00:00', 'Director Vice Rectoria', 3, 9, 12),
+(33, '2019-12-28 12:00:00.000', '2019-12-12 00:00:00', 'Director Area Informatica', 4, 9, 12),
+(34, '2019-12-28 12:00:00.000', '2019-12-12 00:00:00', 'lalal lalalaskldaskl jasdlkjasdkljsda', 5, 9, 12),
+(35, '2019-12-28 12:00:00.000', '2019-12-12 00:00:00', 'lalal lalalaskldaskl jasdlkjasdkljsda', 6, 9, 12),
+(36, '2019-12-12 12:00:00.000', '00-00-00 00:00', 'Admin Finanzas Fin Anzas', 2, 2, 13),
+(37, '2019-12-12 12:00:00.000', '00-00-00 00:00', 'Director Vice Rectoria', 3, 2, 13),
+(38, '2019-12-12 12:00:00.000', '00-00-00 00:00', 'Director Area Informatica', 4, 2, 13),
+(39, '2019-12-12 12:00:00.000', '00-00-00 00:00', 'lalal lalalaskldaskl jasdlkjasdkljsda', 5, 2, 13),
+(40, '2019-12-12 12:00:00.000', '00-00-00 00:00', 'Area Calidad Suprema', 6, 3, 13),
+(41, '2019-12-12 12:00:00.000', '00-00-00 00:00', 'Solicitante De Prueba Iteracion1', 7, 2, 13),
+(42, '2019-12-12 12:00:00.000', '00-00-00 00:00', 'Director Area Industrias', 8, 2, 13),
+(43, '2019-12-12 12:00:00.000', '00-00-00 00:00', 'Director Conectividad Redes', 9, 2, 13),
+(44, '2019-12-12 12:00:00.000', '00-00-00 00:00', 'Director Gestion Academica Analisis Institucional', 10, 2, 13);
 
 -- --------------------------------------------------------
 
@@ -318,8 +1117,65 @@ CREATE TABLE `relacionescatalogoatributosconprocesopresupuestal` (
 --
 
 INSERT INTO `relacionescatalogoatributosconprocesopresupuestal` (`fkIdPeriodoPresupuestal`, `fkIdCatalogoAtributosAdicionales`) VALUES
-(1, 1),
-(1, 2);
+(7, 1),
+(8, 1),
+(13, 1),
+(1, 3),
+(2, 3),
+(3, 3),
+(8, 3),
+(9, 3),
+(10, 3),
+(11, 3),
+(12, 3),
+(13, 3),
+(1, 4),
+(3, 4),
+(7, 4),
+(9, 4),
+(10, 4),
+(11, 4),
+(12, 4),
+(13, 4),
+(1, 5),
+(3, 5),
+(7, 5),
+(8, 5),
+(9, 5),
+(10, 5),
+(11, 5),
+(13, 5),
+(1, 6),
+(3, 6),
+(6, 6),
+(7, 6),
+(8, 6),
+(9, 6),
+(13, 6),
+(1, 7),
+(3, 7),
+(6, 7),
+(7, 7),
+(8, 7),
+(9, 7),
+(13, 7),
+(2, 8),
+(3, 8),
+(6, 8),
+(7, 8),
+(8, 8),
+(9, 8),
+(10, 8),
+(11, 8),
+(12, 8),
+(13, 8),
+(9, 9),
+(10, 9),
+(11, 9),
+(12, 9),
+(13, 9),
+(13, 10),
+(13, 11);
 
 -- --------------------------------------------------------
 
@@ -342,7 +1198,20 @@ CREATE TABLE `solicitantes` (
 
 INSERT INTO `solicitantes` (`idSolicitante`, `nombreSolicitante`, `apellidoPaternoSolicitante`, `apellidoMaternoSolicitante`, `fkIdEstadoSolicitante`, `fkIdDepartamento`) VALUES
 (1, 'SolicitantepRueba', 'SolicitantePatPrueba', 'SolicitanteMatPrueba', 1, 1),
-(2, 'Admin Finanzas', 'Fin', 'Anzas', 1, 2);
+(2, 'Admin Finanzas', 'Fin', 'Anzas', 1, 2),
+(3, 'Director', 'Vice', 'Rectoria', 1, 3),
+(4, 'Director', 'Area', 'Informatica', 1, 4),
+(5, 'Testeo', 'Test', 'Test', 2, 5),
+(6, 'lalal', 'lalalaskldaskl', 'jasdlkjasdkljsda', 1, 5),
+(7, 'Solicitante', 'De Prueba', 'Iteracion1', 1, 7),
+(8, 'Director', 'Conectividad', 'Redes', 2, 9),
+(10, 'Director', 'Gestion Academica', 'Analisis Institucional', 2, 10),
+(11, 'Area', 'Calidad', 'Suprema', 2, 6),
+(12, 'Nuevo Director', 'Area', 'Industrial', 2, 8),
+(13, 'Director', 'Area', 'Industrias', 1, 8),
+(14, 'Director', 'Conectividad', 'Redes', 1, 9),
+(15, 'Directora', 'Gestion Academica', 'Analisis Institucional', 1, 10),
+(16, 'Director', 'Area', 'Calidad', 1, 6);
 
 -- --------------------------------------------------------
 
@@ -373,12 +1242,11 @@ INSERT INTO `sysdiagrams` (`name`, `principal_id`, `diagram_id`, `version`, `def
 --
 
 CREATE TABLE `users` (
-  `id` bigint(20) UNSIGNED NOT NULL,
+  `id` int(10) UNSIGNED NOT NULL,
   `name` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `role` varchar(10) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `fkIdSolicitantes` int(11) NOT NULL,
   `email` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `email_verified_at` timestamp NULL DEFAULT NULL,
+  `role` varchar(15) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `fkIdSolicitantes` int(11) NOT NULL,
   `password` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `remember_token` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
@@ -389,10 +1257,17 @@ CREATE TABLE `users` (
 -- Volcado de datos para la tabla `users`
 --
 
-INSERT INTO `users` (`id`, `name`, `role`, `fkIdSolicitantes`, `email`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
-(2, 'Dr. Deven Douglas Sr.', 'Usuario', 1, 'krajcik.hayden@example.net', '2019-11-07 19:55:35', 'secret', 'eCOLzQW3NM', '2019-11-07 19:55:35', '2019-11-07 19:55:35'),
-(3, 'test', 'Usuario', 1, 'test@ciisa.cl', NULL, '$2y$10$349hq7p4nJH902uEg0BWeuD7IAkjWyogVMLWlr6RGWjMiBdOzgrI6', '5CaC1gTe96FpKNi6IxU7kw5qekO3kX4EfV0oH08LvB5wOLHu26aBJsKrezOV', '2019-11-07 20:34:47', '2019-11-07 20:34:47'),
-(4, 'Administrador Finanzas', 'Finanzas', 2, 'finanzas@ciisa.cl', NULL, '$2y$10$Fe4NM6UG4qT6iSFH94WUAeLyNoilVa5lD16T3h3ltZJYtvQAb7hf.', NULL, '2019-11-14 20:24:14', '2019-11-14 20:24:14');
+INSERT INTO `users` (`id`, `name`, `email`, `role`, `fkIdSolicitantes`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
+(1, 'Vicerector', 'vicerectoria@ciisa.cl', 'Solicitante', 3, '$2y$10$W84aqxs7IICPl7uvO9XQfe2U4YkAC0nCwrU03tI3WAIqlhe9FEBo6', 'clJH1hCrQU6QQfMt1wb2c9Dsd7YW1FU8eIAcLZHwAIjnYmwC8zyoZLCgENGc', '2019-12-10 19:39:51', '2019-12-10 19:39:51'),
+(2, 'Super Rector', 'rectoria@ciisa.cl', 'Rectoria', 1, '$2y$10$fP50jX2RrRieriELQoKEG.LQ30iA2mpJGe3O96wfZ.xpWLD.UqiW2', 'dWVVKhos95ZXaekORZbS0SiRoMBkPA3L6CJyep3RqCEjaVQz8c0KpOeGYrbs', '2019-12-10 19:42:00', '2019-12-10 19:42:00'),
+(3, 'Administrador Finanzas', 'finanzas@ciisa.cl', 'Finanzas', 2, '$2y$10$7LhCXzRoIRyEfwWHyM.7o.98MH/bnQtkE4566J0QryxJwp//4ghIu', 'FjzDzwJEZ1OojgaJAm7oalCF3sM3VcPDf3GyKnazMxoYV84uhzR9XqezTkLf', '2019-12-10 19:42:31', '2019-12-10 19:42:31'),
+(4, 'Director de Prueba', 'informatica@ciisa.cl', 'Solicitante', 4, '$2y$10$fYiBIdS3kKzEM5p4xFfC6Om6VNk8kxHovb3ybZScWV2uWSabkROCW', 'HwcqboQArydWQMKKlYk0sxsP5HcPJSoQI2XwrDyviJ479jPmiKAp6VilVfKl', '2019-12-10 19:43:31', '2019-12-10 19:43:31'),
+(5, 'lalal lalalaskldaskl', 'test@ciisa.cl', 'Solicitante', 6, '$2y$10$bP3zIubffFtWkPhofMKQneVp3M3NwgEezFBogouRbWcXorvDVDp/e', NULL, '2019-12-12 21:34:58', '2019-12-12 21:34:58'),
+(6, 'Solicitante De Prueba', 'iteracion1@ciisa.cl', 'Solicitante', 7, '$2y$10$HAHvlAil3TySs8tEYTnWeeKUvIiS0xfd7OX06YW6gsUGEsWp32pVO', NULL, '2019-12-12 23:36:50', '2019-12-12 23:36:50'),
+(12, 'Director Area', 'industrias@ciisa.cl', 'Solicitante', 13, '$2y$10$SzvHa4dwkCjut0ScKEArz.hSChY1vOZ8XyMI1RE29M0MUBKTt3BIq', 'OnfvsIv822NSPNXX1lJFH1dfAJrkJVnIzi239V6fBXJ9RVCXz5CdCtDABPXa', '2019-12-13 02:12:28', '2019-12-13 02:12:28'),
+(13, 'Director Conectividad', 'redes@ciisa.cl', 'Solicitante', 14, '$2y$10$vx80PFZ.xw7gY56dkHk0s.RzZdp4K5QPkZMg9G1JXPJj5ZmyG4O0u', 'nA3N3ZFcuQh5RWIFx7epROXhahSze4f6xTJLtZiJ9Hfw1d82TjZtYD2BLc7G', '2019-12-13 02:21:19', '2019-12-13 02:21:19'),
+(14, 'Directora Gestion Academica', 'gestionanalisis@ciisa.cl', 'Solicitante', 15, '$2y$10$YFGLWNdtPwNnuVSThkhryuvaSdfrQWMzxxMbRp5rFw4XbM98Kf7YO', 'OKPKpUZMT16CqdHRGApoSJkqdVnPbwJpZhOwHA35T0RTkzjPVLrEUVUAu5hk', '2019-12-13 02:28:53', '2019-12-13 02:28:53'),
+(15, 'Director Area', 'calidad@ciisa.cl', 'Solicitante', 16, '$2y$10$56fcqrIQIWd2pUn2pYmRleKFnRnkrLRrfvy6VKkAP27uk0fKwzEIu', 'oEu8fdeKvYMpUd47NAjkq0I0qljQkauWlSTD0nnirHAf7XSae1lVcF8eshGb', '2019-12-13 02:37:14', '2019-12-13 02:37:14');
 
 --
 -- Índices para tablas volcadas
@@ -452,7 +1327,8 @@ ALTER TABLE `credencialesusuarios`
 -- Indices de la tabla `departamentos`
 --
 ALTER TABLE `departamentos`
-  ADD PRIMARY KEY (`idDepartamento`);
+  ADD PRIMARY KEY (`idDepartamento`),
+  ADD UNIQUE KEY `posicionDepartamento` (`posicionDepartamento`);
 
 --
 -- Indices de la tabla `failed_jobs`
@@ -524,8 +1400,7 @@ ALTER TABLE `sysdiagrams`
 --
 ALTER TABLE `users`
   ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `users_email_unique` (`email`),
-  ADD KEY `fkIdSolicitantes` (`fkIdSolicitantes`);
+  ADD UNIQUE KEY `users_email_unique` (`email`);
 
 --
 -- AUTO_INCREMENT de las tablas volcadas
@@ -535,19 +1410,19 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT de la tabla `atributosadicionales`
 --
 ALTER TABLE `atributosadicionales`
-  MODIFY `idAtributoAdicional` int(11) NOT NULL AUTO_INCREMENT COMMENT 'TRIAL', AUTO_INCREMENT=2;
+  MODIFY `idAtributoAdicional` int(11) NOT NULL AUTO_INCREMENT COMMENT 'TRIAL', AUTO_INCREMENT=684;
 
 --
 -- AUTO_INCREMENT de la tabla `catalogoatributosadicionales`
 --
 ALTER TABLE `catalogoatributosadicionales`
-  MODIFY `idCatalogoAtributoAdicional` int(11) NOT NULL AUTO_INCREMENT COMMENT 'TRIAL', AUTO_INCREMENT=3;
+  MODIFY `idCatalogoAtributoAdicional` int(11) NOT NULL AUTO_INCREMENT COMMENT 'TRIAL', AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT de la tabla `catalogoestadossolicitantes`
 --
 ALTER TABLE `catalogoestadossolicitantes`
-  MODIFY `idEstadoSolicitante` int(11) NOT NULL AUTO_INCREMENT COMMENT 'TRIAL', AUTO_INCREMENT=2;
+  MODIFY `idEstadoSolicitante` int(11) NOT NULL AUTO_INCREMENT COMMENT 'TRIAL', AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT de la tabla `credencialesusuarios`
@@ -559,7 +1434,7 @@ ALTER TABLE `credencialesusuarios`
 -- AUTO_INCREMENT de la tabla `departamentos`
 --
 ALTER TABLE `departamentos`
-  MODIFY `idDepartamento` int(11) NOT NULL AUTO_INCREMENT COMMENT 'TRIAL', AUTO_INCREMENT=3;
+  MODIFY `idDepartamento` int(11) NOT NULL AUTO_INCREMENT COMMENT 'TRIAL', AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT de la tabla `failed_jobs`
@@ -571,31 +1446,31 @@ ALTER TABLE `failed_jobs`
 -- AUTO_INCREMENT de la tabla `lineasdedetalle`
 --
 ALTER TABLE `lineasdedetalle`
-  MODIFY `idLineasDeDetalle` int(11) NOT NULL AUTO_INCREMENT COMMENT 'TRIAL', AUTO_INCREMENT=2;
+  MODIFY `idLineasDeDetalle` int(11) NOT NULL AUTO_INCREMENT COMMENT 'TRIAL', AUTO_INCREMENT=113;
 
 --
 -- AUTO_INCREMENT de la tabla `migrations`
 --
 ALTER TABLE `migrations`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT de la tabla `periodospresupuestales`
 --
 ALTER TABLE `periodospresupuestales`
-  MODIFY `idPeriodoPresupuestal` int(11) NOT NULL AUTO_INCREMENT COMMENT 'TRIAL', AUTO_INCREMENT=2;
+  MODIFY `idPeriodoPresupuestal` int(11) NOT NULL AUTO_INCREMENT COMMENT 'TRIAL', AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT de la tabla `presupuestos`
 --
 ALTER TABLE `presupuestos`
-  MODIFY `idPresupuesto` int(11) NOT NULL AUTO_INCREMENT COMMENT 'TRIAL', AUTO_INCREMENT=3;
+  MODIFY `idPresupuesto` int(11) NOT NULL AUTO_INCREMENT COMMENT 'TRIAL', AUTO_INCREMENT=45;
 
 --
 -- AUTO_INCREMENT de la tabla `solicitantes`
 --
 ALTER TABLE `solicitantes`
-  MODIFY `idSolicitante` int(11) NOT NULL AUTO_INCREMENT COMMENT 'TRIAL', AUTO_INCREMENT=3;
+  MODIFY `idSolicitante` int(11) NOT NULL AUTO_INCREMENT COMMENT 'TRIAL', AUTO_INCREMENT=17;
 
 --
 -- AUTO_INCREMENT de la tabla `sysdiagrams`
@@ -607,7 +1482,7 @@ ALTER TABLE `sysdiagrams`
 -- AUTO_INCREMENT de la tabla `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
 -- Restricciones para tablas volcadas

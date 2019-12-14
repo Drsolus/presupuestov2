@@ -10,7 +10,7 @@
                    class="form-control form-control-lg"
                    value="{{$LineaDeDetalle->idLineasDeDetalle}}">
 
-            <input required name="Descripcion" type="text" class="form-control form-control-lg"
+            <input maxlength="100" required name="Descripcion" type="text" class="form-control form-control-lg"
                    placeholder="Descripcion" value="{{$LineaDeDetalle->descripcionLineaDeDetalle}}" style="margin: 15px;>">
         </div>
         <div>
@@ -20,7 +20,7 @@
 
 
             <span class="input-group-addon">$</span>
-            <input name="PresupuestoSolicitado"  type="number" class="form-control form-control-lg"
+            <input maxlength="11" name="PresupuestoSolicitado"  type="number" class="form-control form-control-lg"
                    placeholder="Valor Solicitado" value="{{$LineaDeDetalle->presupuestoSolicitado}}">
         </div>
         @foreach($AtributosAdicionales as $Atributo)
@@ -34,7 +34,7 @@
                        value="{{$Atributo->idAtributoAdicional}}">
 
 
-                <input name="ValorAtributoAdicional[]" type="text"
+                <input maxlength="300" name="ValorAtributoAdicional[]" type="text"
                        class="form-control form-control-lg"
                        value="{{$Atributo->valorAtributoAdicional}}" style="margin: 15px;">
             </div>

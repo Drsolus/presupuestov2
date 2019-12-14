@@ -23,7 +23,7 @@
 
         <div class="row">
             <div class="col-md-6">
-                <input required name="ValorAprobado" type="number" class="form-control form-control-lg"
+                <input maxlength="11" required name="ValorAprobado" type="number" class="form-control form-control-lg"
                        min="1"  placeholder="Ingrese Monto A Aprobar">
             </div>
         </div>

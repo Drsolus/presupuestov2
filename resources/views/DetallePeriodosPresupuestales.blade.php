@@ -31,7 +31,7 @@
                         <table id="data-table" class="table">
                             <thead>
                             <tr>
-                                <th>#</th>
+                                <th>ID Linea</th>
                                 <th>Descripcion</th>
                                 <th>Departamento</th>
                                 <th>NombreSolicitante</th>
@@ -47,7 +47,7 @@
                             @foreach($PeriodoPresupuestal->Presupuesto as $presupuesto)
                                 @foreach($presupuesto->LineasDeDetalle as $Linea)
                                     <tr>
-                                        <th scope="row">{{$loop->index +1}} </th>
+                                        <th scope="row">{{$Linea->idLineasDeDetalle}} </th>
                                         <td> {{$Linea->descripcionLineaDeDetalle}}</td>
                                         <td>{{$presupuesto->Departamento->nombreDepartamento}}</td>
                                         <td>{{$Linea->Presupuesto->nombreSolicitantePresupuesto}}</td>

@@ -52,7 +52,7 @@ class SolicitanteController extends Controller
                     'role' =>'Solicitante',
                     'fkIdSolicitantes'=>$idSolicitante,
                     'email' => $emailSolicitante,
-                    'password' => Hash::make($paternoSolicitante),
+                    'password' => Hash::make($password),
                 ]);
                 return redirect()->route('Solicitantes');
             }

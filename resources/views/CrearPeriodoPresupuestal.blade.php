@@ -16,7 +16,7 @@
                     <label for="nombrePeriodo" class="col-sm-4 col-form-label text-md-right">{{ __('Nombre Periodo Presupuestal') }}</label>
 
                     <div class="col-md-6">
-                        <input id="nombrePeriodo" name="nombrePeriodo" placeholder="Presupuesto 20XX" type="text" class="form-control{{ $errors->has('nombrePeriodo') ? ' is-invalid' : '' }}"  value="{{ old('nombrePeriodo') }}" required autofocus>
+                        <input maxlength="70" id="nombrePeriodo" name="nombrePeriodo" placeholder="Presupuesto 20XX" type="text" class="form-control{{ $errors->has('nombrePeriodo') ? ' is-invalid' : '' }}"  value="{{ old('nombrePeriodo') }}" required autofocus>
 
                         @if ($errors->has('nombrePeriodo'))
                             <span class="invalid-feedback" role="alert">

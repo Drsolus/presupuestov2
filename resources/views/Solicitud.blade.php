@@ -13,12 +13,12 @@
             <form id="formprincipal">
                 <div class="Form-group">
                     <div class="input-group">
-                        <input required name="Descripcion" type="text" class="form-control form-control-lg"
+                        <input maxlength="100" required name="Descripcion" type="text" class="form-control form-control-lg"
                                placeholder="Descripcion" style="margin: 15px;">
                     </div>
                     <div class="input-group">
                         <span class="input-group-addon">$</span>
-                        <input name="PresupuestoSolicitado" type="number" class="form-control form-control-lg"
+                        <input maxlength="11" name="PresupuestoSolicitado" type="number" class="form-control form-control-lg"
                                placeholder="Valor Solicitado">
                     </div>
                     @foreach($AtributosARenderizar as $Atributo)
@@ -27,7 +27,7 @@
                                    class="form-control form-control-lg"
                                    value="{{$Atributo->nombreCatalogoAtributoAdicional}}">
 
-                            <input name="ValorAtributoAdicional[]" required type="text"
+                            <input name="ValorAtributoAdicional[]" maxlength="300" required type="text"
                                    class="form-control form-control-lg"
                                    placeholder="{{$Atributo->nombreCatalogoAtributoAdicional}}" style="margin: 15px;">
                         </div>

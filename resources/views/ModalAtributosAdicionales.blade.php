@@ -3,7 +3,7 @@
         <label for="email" class="col-sm-4 col-form-label text-md-right">{{ __('Nombre Atributo Adicional') }}</label>
 
         <div class="col-md-6">
-            <input id="NuevoAtributo" type="text" class="form-control{{ $errors->has('NuevoAtributo') ? ' is-invalid' : '' }}" name="NuevoAtributo" value="{{ old('NuevoAtributo') }}" required autofocus>
+            <input maxlength="30" id="NuevoAtributo" type="text" class="form-control{{ $errors->has('NuevoAtributo') ? ' is-invalid' : '' }}" name="NuevoAtributo" value="{{ old('NuevoAtributo') }}" required autofocus>
 
             @if ($errors->has('NuevoAtributo'))
                 <span class="invalid-feedback" role="alert">

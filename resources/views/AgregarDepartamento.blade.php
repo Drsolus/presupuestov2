@@ -16,7 +16,7 @@
                     <label for="nombreDepartamento" class="col-sm-4 col-form-label text-md-right">Nombre del Departamento</label>
 
                     <div class="col-md-6">
-                        <input id="nombreDepartamento" name="nombreDepartamento" placeholder="Departamento de Ciencias" type="text" class="form-control" required autofocus>
+                        <input maxlength="100" id="nombreDepartamento" name="nombreDepartamento" placeholder="Departamento de Ciencias" type="text" class="form-control" required autofocus>
 
                     </div>
                 </div>
